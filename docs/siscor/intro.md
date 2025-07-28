@@ -19,10 +19,10 @@ El sistema está diseñado para:
 
 SISCOR se estructura en módulos clave para facilitar la gestión diaria:
 
--   **[Bandeja de Entrada](/docs/siscor/bandeja):** Tu centro de control personal para visualizar, gestionar y actuar sobre los documentos y trámites asignados.
--   **[Registro de Entradas](/docs/siscor/entradas):** El punto de ingreso oficial para toda la correspondencia, asegurando que cada documento sea registrado y canalizado correctamente.
--   **[Gestión de Certificados](/docs/siscor/certificados):** Módulo dedicado a la emisión, control y seguimiento de certificados oficiales generados dentro del sistema.
--   **[Parámetros del Sistema](/docs/category/parametros-siscor):** Área de configuración avanzada donde se definen elementos cruciales como tipos de documentos, acciones permitidas, entidades externas, y más, adaptando SISCOR a las necesidades específicas de la institución. *(Verifica que el enlace `/docs/category/parametros-siscor` coincida con la categoría en `sidebars.js`)*.
+-   **[Bandeja de Entrada](./bandeja):** Tu centro de control personal para visualizar, gestionar y actuar sobre los documentos y trámites asignados.
+-   **[Registro de Entradas](./entradas):** El punto de ingreso oficial para toda la correspondencia, asegurando que cada documento sea registrado y canalizado correctamente.
+-   **[Gestión de Certificados](./certificados):** Módulo dedicado a la emisión, control y seguimiento de certificados oficiales generados dentro del sistema.
+-   **[Parámetros del Sistema](./parametros/personas-externas):** Área de configuración avanzada donde se definen elementos cruciales como tipos de documentos, acciones permitidas, entidades externas, y más, adaptando SISCOR a las necesidades específicas de la institución.
 
 ## El Viaje de un Documento (Flujo Básico)
 

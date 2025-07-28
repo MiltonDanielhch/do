@@ -13,34 +13,34 @@ Este módulo proporciona una colección completa de reportes generados a partir 
 El sistema ofrece una amplia gama de reportes predefinidos, cubriendo áreas clave como:
 
 -   **Recursos Humanos y Contrataciones:**
-    -   [Datos Personales](/docs/mamore/reportes/datos-personales)
-    -   [Contrataciones](/docs/mamore/reportes/contrataciones)
-    -   [Contratos](/docs/mamore/reportes/contratos) y [Adendas](/docs/mamore/reportes/adendas)
-    -   [Cargos](/docs/mamore/reportes/cargos)
-    -   [Aniversarios](/docs/mamore/reportes/aniversarios)
-    -   [Parentescos](/docs/mamore/reportes/parentescos)
-    -   [Marcaciones (Asistencia)](/docs/mamore/reportes/marcaciones)
+    -   [Datos Personales](./datos-personales)
+    -   [Contrataciones](./contrataciones)
+    -   [Contratos](./contratos) y [Adendas](./adendas)
+    -   [Cargos](./cargos)
+    -   [Aniversarios](./aniversarios)
+    -   [Parentescos](./parentescos)
+    -   [Marcaciones (Asistencia)](./marcaciones)
 -   **Planillas y Pagos:**
-    -   [Planillas](/docs/mamore/reportes/planillas)
-    -   [Pagos de Planillas](/docs/mamore/reportes/pagos-planillas)
-    -   [Pagos Anuales](/docs/mamore/reportes/pagos-anuales)
-    -   [Aguinaldos](/docs/mamore/reportes/aguinaldos)
-    -   [Aportes Individuales](/docs/mamore/reportes/aportes-individuales)
-    -   [Pagos de Seguro Social](/docs/mamore/reportes/pagos-seguro-social)
-    -   [Planillas Manuales (Reporte)](/docs/mamore/reportes/planillas-manuales)
+    -   [Planillas](./planillas)
+    -   [Pagos de Planillas](./pagos-planillas)
+    -   [Pagos Anuales](./pagos-anuales)
+    -   [Aguinaldos](./aguinaldos)
+    -   [Aportes Individuales](./aportes-individuales)
+    -   [Pagos de Seguro Social](./pagos-seguro-social)
+    -   [Planillas Manuales (Reporte)](./planillas-manuales)
 -   **Tesorería y Finanzas:**
-    -   [Cheques](/docs/mamore/reportes/cheques)
-    -   [Pagos con Cheques](/docs/mamore/reportes/pagos-cheques)
-    -   [Cajas](/docs/mamore/reportes/cajas)
-    -   [Pagos Realizados](/docs/mamore/reportes/pagos-realizados)
-    -   [Cierres de Bóveda](/docs/mamore/reportes/cierres-boveda)
+    -   [Cheques](./cheques)
+    -   [Pagos con Cheques](./pagos-cheques)
+    -   [Cajas](./cajas)
+    -   [Pagos Realizados](./pagos-realizados)
+    -   [Cierres de Bóveda](./cierres-boveda)
 -   **Activos Fijos:**
-    -   [Mantenimientos (Reporte)](/docs/mamore/reportes/mantenimientos)
+    -   [Mantenimientos (Reporte)](./mantenimientos)
 -   **Otros Reportes y Exportaciones:**
-    -   [Reporte para Contraloría](/docs/mamore/reportes/contraloria)
-    -   [Carátula](/docs/mamore/reportes/caratula)
-    -   [Generar Excel](/docs/mamore/reportes/generar-excel)
-    -   [Proyectos](/docs/mamore/reportes/proyectos)
+    -   [Reporte para Contraloría](./contraloria)
+    -   [Carátula](./caratula)
+    -   [Generar Excel](./generar-excel)
+    -   [Proyectos](./proyectos)
 
 ## Beneficios
 

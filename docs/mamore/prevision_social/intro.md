@@ -11,10 +11,10 @@ Este módulo se encarga de la gestión de los procesos relacionados con los apor
 ## Funcionalidades Principales
 
 -   **Gestión de Pagos de Previsión Social:**
-    -   Administra y registra los [Pagos](/docs/mamore/prevision_social/pagos) realizados a las entidades correspondientes (AFP, Cajas de Salud).
-    -   Permite la generación y seguimiento de [Cheques](/docs/mamore/prevision_social/cheques) específicos para estos pagos.
+    -   Administra y registra los [Pagos](./pagos) realizados a las entidades correspondientes (AFP, Cajas de Salud).
+    -   Permite la generación y seguimiento de [Cheques](./cheques) específicos para estos pagos.
 -   **Gestión de Planillas Manuales:**
-    -   Facilita el registro y procesamiento de [Planillas Manuales](/docs/mamore/prevision_social/planillas-manuales) para casos específicos o ajustes relacionados con la previsión social.
+    -   Facilita el registro y procesamiento de [Planillas Manuales](./planillas-manuales) para casos específicos o ajustes relacionados con la previsión social.
 -   **Cálculo de Aportes:** Calcula automáticamente los aportes patronales y laborales según la normativa y los parámetros definidos en el sistema.
 -   **Generación de Reportes:** Proporciona informes necesarios para el control interno y el cumplimiento de obligaciones con las entidades de previsión social.
 

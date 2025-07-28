@@ -13,26 +13,26 @@ Este módulo es fundamental para la configuración y el correcto funcionamiento 
 El módulo permite gestionar una amplia variedad de parámetros, agrupados lógicamente:
 
 -   **Estructura Organizacional y Geográfica:**
-    -   [Direcciones](/docs/mamore/parametros/direcciones)
-    -   [Unidades Administrativas](/docs/mamore/parametros/unidades-admin)
-    -   [Dependencias](/docs/mamore/parametros/dependencias)
-    -   [Oficinas](/docs/mamore/parametros/oficinas)
-    -   [Países](/docs/mamore/parametros/paises)
-    -   [Departamentos/Estados](/docs/mamore/parametros/departamentos-estados)
-    -   [Ciudades](/docs/mamore/parametros/ciudades)
+    -   [Direcciones](./direcciones)
+    -   [Unidades Administrativas](./unidades-admin)
+    -   [Dependencias](./dependencias)
+    -   [Oficinas](./oficinas)
+    -   [Países](./paises)
+    -   [Departamentos/Estados](./departamentos-estados)
+    -   [Ciudades](./ciudades)
 -   **Parámetros de Recursos Humanos:**
-    -   [Tipos de AFP](/docs/mamore/parametros/tipos-afp)
-    -   [Tipos de Seguro Social](/docs/mamore/parametros/tipos-seguro-social)
-    -   [Bono de Antigüedad (Configuración)](/docs/mamore/parametros/bono-antiguedad)
-    -   [Tipos de Inamovilidad](/docs/mamore/parametros/tipos-inamovilidad)
-    -   [Tipos de Permisos](/docs/mamore/parametros/tipo-permisos)
+    -   [Tipos de AFP](./tipos-afp)
+    -   [Tipos de Seguro Social](./tipos-seguro-social)
+    -   [Bono de Antigüedad (Configuración)](./bono-antiguedad)
+    -   [Tipos de Inamovilidad](./tipos-inamovilidad)
+    -   [Tipos de Permisos](./tipo-permisos)
 -   **Parámetros Financieros y de Pagos:**
-    -   [Beneficiarios (Configuración General)](/docs/mamore/parametros/beneficiarios)
-    -   [Tipos de Beneficiarios](/docs/mamore/parametros/tipos-beneficiarios)
-    -   [Tipos de Cheques](/docs/mamore/parametros/tipos-cheques)
+    -   [Beneficiarios (Configuración General)](./beneficiarios)
+    -   [Tipos de Beneficiarios](./tipos-beneficiarios)
+    -   [Tipos de Cheques](./tipos-cheques)
 -   **Otros Parámetros Generales:**
-    -   [Feriados](/docs/mamore/parametros/feriados)
-    -   [Trabajos Recurrentes (Tareas Programadas)](/docs/mamore/parametros/trabajos-recurrentes)
+    -   [Feriados](./feriados)
+    -   [Trabajos Recurrentes (Tareas Programadas)](./trabajos-recurrentes)
 
 ## Importancia del Módulo
 

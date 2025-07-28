@@ -11,14 +11,14 @@ Este módulo está diseñado para la gestión y control integral del patrimonio 
 ## Funcionalidades Principales
 
 -   **Gestión de Activos:**
-    -   Registro y catalogación de todos los [Activos](/docs/mamore/activos-fijos/activos) fijos de la institución.
+    -   Registro y catalogación de todos los [Activos](./activos) fijos de la institución.
     -   Asignación de códigos únicos y seguimiento individualizado.
     -   Registro de características, valor de adquisición, fecha de alta, etc.
 -   **Organización y Clasificación:**
-    -   Administración de [Grupos](/docs/mamore/activos-fijos/grupos) contables para la correcta clasificación de los activos.
-    -   Gestión de [Secciones](/docs/mamore/activos-fijos/secciones) o ubicaciones físicas para el control de la asignación.
+    -   Administración de [Grupos](./grupos) contables para la correcta clasificación de los activos.
+    -   Gestión de [Secciones](./secciones) o ubicaciones físicas para el control de la asignación.
 -   **Gestión de Mantenimiento:**
-    -   Registro y seguimiento de los [Mantenimientos](/docs/mamore/activos-fijos/mantenimientos) preventivos y correctivos realizados a los activos.
+    -   Registro y seguimiento de los [Mantenimientos](./mantenimientos) preventivos y correctivos realizados a los activos.
 -   **Depreciación y Bajas:**
     -   Cálculo automático de la depreciación según métodos configurados.
     -   Gestión del proceso de baja de activos (por venta, obsolescencia, etc.).

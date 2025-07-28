@@ -32,7 +32,7 @@ La tabla presenta la siguiente información clave para cada persona registrada:
 | **Estado**    | Condición actual del registro (`Activo` o `Inactivo`).                      | Texto        | `Activo`                                                     | Indica si el registro está vigente.                                 |
 | **Acciones**  | Botones o iconos para operaciones específicas sobre el registro.            | (Botones)    | (Varía)                                                      | Generalmente incluye "Editar", "Ver Detalles", "Cambiar Estado". |
 
-## Registrar/Editar Persona Externa (Formulario Modal)
+## Registrar/Editar Persona Externa (Formulario Modal) {#registrareditar-persona-externa}
 
 Al hacer clic en "Añadir" o "Editar" en el tablero principal, se despliega un formulario (generalmente en una ventana modal) para ingresar o modificar los datos de una persona externa.
 

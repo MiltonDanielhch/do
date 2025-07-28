@@ -11,14 +11,14 @@ Este módulo centraliza y automatiza todos los procesos relacionados con la cont
 ## Funcionalidades Principales
 
 -   **Gestión de Procesos de Selección:** Administra licitaciones públicas, contrataciones directas y otros procesos de selección según la normativa vigente.
--   **Administración de Personas/Proveedores:** Mantiene un registro centralizado de datos personales y profesionales. Incluye la gestión de [Lista de Personas](/docs/mamore/contrataciones/lista-persona) y el [Registro de Nuevas Personas](/docs/mamore/contrataciones/crear-persona).
--   **Gestión Contractual:** Permite la [Creación de Contratos](/docs/mamore/contrataciones/crear-contrato), adendas, seguimiento de vigencias y la consulta de la [Lista de Contratos](/docs/mamore/contrataciones/lista-contrato).
--   **Administración de Cargos:** Define la estructura organizacional, incluyendo [Cargos](/docs/mamore/contrataciones/cargos), [Cargos Alternos](/docs/mamore/contrataciones/cargos-alternos) y sus respectivas escalas salariales.
+-   **Administración de Personas/Proveedores:** Mantiene un registro centralizado de datos personales y profesionales. Incluye la gestión de [Lista de Personas](./lista-persona) y el [Registro de Nuevas Personas](./crear-persona).
+-   **Gestión Contractual:** Permite la [Creación de Contratos](./crear-contrato), adendas, seguimiento de vigencias y la consulta de la [Lista de Contratos](./lista-contrato).
+-   **Administración de Cargos:** Define la estructura organizacional, incluyendo [Cargos](./cargos), [Cargos Alternos](./cargos-alternos) y sus respectivas escalas salariales.
 -   **Configuración y Parámetros:** Gestiona elementos clave como:
-    -   [Tipos de Planillas](/docs/mamore/contrataciones/tipos-planillas)
-    -   Cálculo de [Bono de Antigüedad](/docs/mamore/contrataciones/bono-antiguedad)
-    -   Asignación a [Programas y Proyectos](/docs/mamore/contrataciones/programas-proyectos)
-    -   Administración de [Firmas Autorizadas](/docs/mamore/contrataciones/firmas-autorizadas) para documentos y aprobaciones.
+    -   [Tipos de Planillas](./tipos-planillas)
+    -   Cálculo de [Bono de Antigüedad](./bono-antiguedad)
+    -   Asignación a [Programas y Proyectos](./programas-proyectos)
+    -   Administración de [Firmas Autorizadas](./firmas-autorizadas) para documentos y aprobaciones.
 -   **Generación de Indicadores:** Proporciona métricas y reportes para el seguimiento y control de los procesos de contratación.
 
 ## Flujo de Trabajo Típico

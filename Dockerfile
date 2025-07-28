@@ -4,11 +4,22 @@ FROM node:22-alpine AS builder
 # Configura el directorio de trabajo
 WORKDIR /app
 
+# Instala herramientas de compilación
+RUN apk add --no-cache --virtual .build-deps \
+    autoconf \
+    automake \
+    g++ \
+    make \
+    python3
+
 # Copia solo los archivos necesarios para instalar dependencias
 COPY package.json yarn.lock ./
 
-# Instala dependencias (Yarn ya está incluido en la imagen)
+# Instala dependencias
 RUN yarn install --frozen-lockfile
+
+# Elimina herramientas de compilación (para reducir tamaño de imagen)
+RUN apk del .build-deps
 
 # Copia el resto de los archivos
 COPY . .
@@ -21,6 +32,3 @@ FROM nginx:alpine
 
 # Copia los archivos construidos
 COPY --from=builder /app/build /usr/share/nginx/html
-
-# Opcional: Personaliza la configuración de Nginx
-# COPY nginx.conf /etc/nginx/conf.d/default.conf

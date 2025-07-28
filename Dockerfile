@@ -1,34 +1,35 @@
-# Usa la imagen base de Node
+# ---- Build stage ----
 FROM node:22-alpine AS builder
 
-# Configura el directorio de trabajo
 WORKDIR /app
 
-# Instala herramientas de compilación
-RUN apk add --no-cache --virtual .build-deps \
+# Instala dependencias de sistema necesarias para compilar módulos nativos
+RUN apk add --no-cache \
     autoconf \
     automake \
     g++ \
     make \
     python3
 
-# Copia solo los archivos necesarios para instalar dependencias
+# Copia manifiestos de dependencias
 COPY package.json yarn.lock ./
 
-# Instala dependencias
+# Instala las dependencias
 RUN yarn install --frozen-lockfile
 
-# Elimina herramientas de compilación (para reducir tamaño de imagen)
-RUN apk del .build-deps
-
-# Copia el resto de los archivos
+# Copia el resto del código fuente
 COPY . .
 
-# Construye el proyecto
+# Build de la aplicación
 RUN yarn build
 
-# Fase de producción con Nginx
+# ---- Runtime stage ----
 FROM nginx:alpine
 
-# Copia los archivos construidos
+# Copia los archivos estáticos generados
 COPY --from=builder /app/build /usr/share/nginx/html
+
+# Expone el puerto 80
+EXPOSE 80
+
+# Nginx ya tiene un CMD por defecto, no hace falta sobreescribirlo

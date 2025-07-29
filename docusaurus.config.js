@@ -19,7 +19,7 @@ export default {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js', // Asegúrate de que exista
+          sidebarPath: './sidebars.js', 
           routeBasePath: '/',
           editUrl: 'https://github.com/tu-usuario/tu-repositorio/edit/main/',
         },
@@ -75,6 +75,13 @@ export default {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['powershell', 'bash', 'json'],
+    },
+     search: {
+      indexDocs: true,
+      indexBlog: true,
+      indexPages: true,
+      language: "es",
+      style: undefined,
     },
   },
 };

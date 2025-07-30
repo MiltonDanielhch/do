@@ -16,8 +16,8 @@ Este módulo permite visualizar y gestionar las planillas correspondientes a pag
 | Campo           | Descripción                                  | Tipo     | Ejemplo                        |
 | :-------------- | :------------------------------------------- | :------- | :----------------------------- |
 | Id°             | Identificador único de la planilla adicional | Numérico | 2                              |
-| C.I.            | Carnet de identidad del funcionario          | Texto    | "8278261"                      |
-| Funcionario     | Nombre completo del beneficiario             | Texto    | "Tte VALENCIA MENDOZA IVAN"    |
+| C.I.            | Carnet de identidad del funcionario          | Texto    | "1234568"                      |
+| Funcionario     | Nombre completo del beneficiario             | Texto    | "Tte PEREZ PEREIRA IVAN"    |
 | Cargo           | Posición laboral del funcionario             | Texto    | "OFICIAL DE ENLACE"            |
 | (Detalle Sueldo)| Remuneración base (mostrada en detalle)      | Decimal  | "Bs. 3500.00"                  |
 | Dias Trabajados | Días laborados considerados para el cálculo  | Numérico | 30                             |
@@ -64,8 +64,8 @@ La funcionalidad de **Buscar** permite filtrar por:
 ## Ejemplo de Registro en Tabla
 ```plaintext
 Id°: 2
-C.I.: 8278261
-Funcionario: Tte VALENCIA MENDOZA IVAN
+C.I.: 12345678
+Funcionario: PEREZ PEREIRA IVAN
 Cargo: OFICIAL DE ENLACE
 (Detalle Sueldo: Bs. 3500.00)
 Dias Trabajados: 30

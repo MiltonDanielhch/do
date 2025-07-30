@@ -18,7 +18,7 @@ El tablero principal muestra el listado de las gestiones de inventario registrad
     *   `Tablero`: Enlace o indicador de la sección principal.
     *   `Inventory`: (Podría ser "Inventario" o "Gestiones") Título del módulo.
     *   `28`: Posiblemente un contador o indicador (requiere clarificación).
-    *   `MILTON DANIEL HIPAMO CHOLIMA`: Nombre del usuario conectado.
+    *   `FABRICIO PEREZ PEREIRA`: Nombre del usuario conectado.
     *   `Inventario [NOMBRE_SUCURSAL]`: Indica claramente la sucursal para la cual se está viendo la gestión de inventario.
 *   **Controles de Tabla:**
     *   `Mostrar X registros`: Permite seleccionar cuántas gestiones mostrar por página (10, 25, 50, 100).

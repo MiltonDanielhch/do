@@ -23,9 +23,9 @@ El reporte presenta la información en un formato tabular con las siguientes col
 | Columna                  | Descripción                                                                 | Tipo          | Ejemplo                                   |
 | :----------------------- | :-------------------------------------------------------------------------- | :------------ | :---------------------------------------- |
 | N°                       | Número secuencial del registro en la vista actual del reporte.              | Numérico      | 1                                         |
-| NOMBRE COMPLETO          | Nombres y apellidos completos de la persona.                                | Texto         | "JUAN PEREZ GONZALES"                     |
+| NOMBRE COMPLETO          | Nombres y apellidos completos de la persona.                                | Texto         | "JUAN PEREZ PEREIRA"                     |
 | CARNET DE IDENTIDAD      | Número de Cédula de Identidad de la persona.                                | Texto         | "1234567 LP"                              |
-| NUA/CUA                  | Número Único Asignado o Código Único de Asegurado en la AFP.                | Texto         | "98765432"                                |
+| NUA/CUA                  | Número Único Asignado o Código Único de Asegurado en la AFP.                | Texto         | "1234567"                                |
 | DIRECCIÓN ADMINISTRATIVA | Unidad organizacional a la que pertenece o estuvo vinculada la persona.     | Texto         | "Secretaría General"                      |
 | PLANILLA                 | Identificador o tipo de planilla a la que corresponde el pago.              | Texto/Numérico| "Eventual ENE-2021"                       |
 | PERIODO                  | Mes y año al que corresponde el pago o aporte.                              | Texto         | "Enero 2021"                              |

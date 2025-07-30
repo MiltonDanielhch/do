@@ -19,7 +19,7 @@ Aunque la estructura exacta de la tabla no es visible, un reporte de aniversario
 | Columna                 | Descripción                                                                 | Tipo          | Ejemplo                                   |
 | :---------------------- | :-------------------------------------------------------------------------- | :------------ | :---------------------------------------- |
 | N°                      | Número secuencial del registro en la vista actual del reporte.              | Numérico      | 1                                         |
-| Nombre Completo         | Nombres y apellidos del funcionario.                                        | Texto         | "ANA LUISA PEREZ ROJAS"                   |
+| Nombre Completo         | Nombres y apellidos del funcionario.                                        | Texto         | "ANA PEREZ PEREIRA"                   |
 | Fecha de Aniversario    | Fecha del aniversario (ej. Fecha de Nacimiento o Fecha de Ingreso).         | Fecha         | "15/08/1985"                              |
 | Tipo de Aniversario     | Especifica si es cumpleaños, aniversario laboral, etc. (si aplica).         | Texto         | "Cumpleaños"                              |
 | Cargo                   | Cargo que desempeña el funcionario.                                         | Texto         | "Técnico Administrativo I"                |
@@ -30,7 +30,7 @@ Aunque la estructura exacta de la tabla no es visible, un reporte de aniversario
 ## Ejemplo de Registro en Tabla (Hipotético)
 ```plaintext
 N°: 1
-Nombre Completo: CARLOS MENDEZ SUAREZ
+Nombre Completo: CARLOS PEREZ PEREIRA
 Fecha de Aniversario: 20/07/1990 (Asumiendo Cumpleaños)
 Tipo de Aniversario: Cumpleaños
 Cargo: Analista de Sistemas

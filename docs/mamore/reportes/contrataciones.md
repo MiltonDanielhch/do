@@ -23,7 +23,7 @@ Esta sección muestra todos los empleados que han iniciado un contrato o han sid
 | Columna                       | Descripción                                                                    | Tipo          | Ejemplo                                      |
 | :---------------------------- | :----------------------------------------------------------------------------- | :------------ | :------------------------------------------- |
 | N°                            | Número secuencial del registro.                                                | Numérico      | 1                                            |
-| APELLIDOS Y NOMBRES / CARGO   | Nombre completo del empleado y su cargo.                                       | Texto (Multi) | "GARCIA LOPEZ ANA / Asistente Administrativo" |
+| APELLIDOS Y NOMBRES / CARGO   | Nombre completo del empleado y su cargo.                                       | Texto (Multi) | "PEREZ PEREIRA ANA / Asistente Administrativo" |
 | CÉDULA DE IDENTIDAD           | Número de Cédula de Identidad del empleado.                                    | Texto         | "1234567 BN"                                 |
 | EXP                           | Lugar de expedición de la Cédula de Identidad.                                 | Texto         | "BN"                                         |
 | NUA/CUA                       | Número Único Asignado o Código Único de Asegurado en la AFP.                   | Texto         | "98765432"                                   |
@@ -46,7 +46,7 @@ La estructura de columnas es idéntica a la tabla de ALTAS.
 | Columna                       | Descripción                                                                    | Tipo          | Ejemplo                                      |
 | :---------------------------- | :----------------------------------------------------------------------------- | :------------ | :------------------------------------------- |
 | N°                            | Número secuencial del registro.                                                | Numérico      | 1                                            |
-| APELLIDOS Y NOMBRES / CARGO   | Nombre completo del empleado y su cargo.                                       | Texto (Multi) | "RODRIGUEZ PAZ LUIS / Técnico I"             |
+| APELLIDOS Y NOMBRES / CARGO   | Nombre completo del empleado y su cargo.                                       | Texto (Multi) | "PEREZ PEREIRA LUIS / Técnico I"             |
 | CÉDULA DE IDENTIDAD           | Número de Cédula de Identidad del empleado.                                    | Texto         | "7654321 SC"                                 |
 | EXP                           | Lugar de expedición de la Cédula de Identidad.                                 | Texto         | "SC"                                         |
 | NUA/CUA                       | Número Único Asignado o Código Único de Asegurado en la AFP.                   | Texto         | "12345678"                                   |

@@ -26,7 +26,7 @@ El formulario se organiza en secciones para facilitar el ingreso de datos:
 *   **Apellidos:** (Texto) Apellidos completos de la persona.
     *   *Validación:* Requerido.
 *   **CI:** (Texto) Cédula de Identidad.
-    *   *Formato:* Numérico, puede incluir extensión alfanumérica (Ej: `1234567`, `4172732BN`).
+    *   *Formato:* Numérico, puede incluir extensión alfanumérica (Ej: `1234567`, `123456BN`).
     *   *Validación:* Requerido, formato específico, verificación de duplicados.
 *   **Profesión:** (Texto) Ocupación o título profesional principal.
     *   *Validación:* Opcional.
@@ -71,7 +71,7 @@ El formulario se organiza en secciones para facilitar el ingreso de datos:
 
 ### Información de Registro (Automática)
 
-*   **Registrado por:** (Texto informativo) Muestra el usuario que está realizando el registro (Ej: `Milton`). *Este campo generalmente no es editable por el usuario.*
+*   **Registrado por:** (Texto informativo) Muestra el usuario que está realizando el registro (Ej: `roberto`). *Este campo generalmente no es editable por el usuario.*
 
 ## Validaciones Clave
 

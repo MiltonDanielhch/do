@@ -40,7 +40,7 @@ La tabla principal muestra la siguiente información clave para cada pedido:
 
 ### Crear Nuevo Pedido
 
-Para iniciar un nuevo pedido, el usuario (identificado en la interfaz, ej: `MILTON DANIEL HIPAMO CHOLIMA - Tecnico I`) utiliza el formulario de creación ("Outbox Create"). Este formulario generalmente incluye los siguientes campos:
+Para iniciar un nuevo pedido, el usuario (identificado en la interfaz, ej: `Roberto pedraza perez - Tecnico I`) utiliza el formulario de creación ("Outbox Create"). Este formulario generalmente incluye los siguientes campos:
 
 **Cabecera del Pedido:**
 

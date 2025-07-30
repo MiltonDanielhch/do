@@ -14,10 +14,10 @@ Módulo para gestionar los pagos procesados de planillas del Gobierno Autónomo 
 | ID | Identificador único | Numérico | 9721 |
 | Dirección administrativa | Unidad responsable | Texto | "Secretaria Departamental de Administracion y Finanzas" |
 | Planilla | Información de planilla | Texto expandible | Ver ejemplo |
-| Nro de FPC | Número de Formulario de Pago Complementario | Texto | "2413668" |
+| Nro de FPC | Número de Formulario de Pago Complementario | Texto | "7654321" |
 | Nro de GTC-11 | Número de documento tributario | Texto | "1482" |
-| Nro de deposito | Número de depósito bancario | Texto | "7083428" |
-| Registrado por | Usuario que procesó | Texto | "Milton Cuellar" |
+| Nro de deposito | Número de depósito bancario | Texto | "1234567" |
+| Registrado por | Usuario que procesó | Texto | "Cuellar" |
 | Fecha | Fecha de registro | Timestamp | "16/01/2025 09:38" |
 
 ## Detalles Expandidos de Planilla
@@ -58,10 +58,10 @@ Planilla:
   N°: 005159 - Gestora
   Personas: 134
   Total: 549.400,00 Bs.
-FPC: 2413668 (23/10/2024)
+FPC: 754321 (23/10/2024)
 GTC-11: 1482
-Depósito: 7083428 (23/10/2024)
-Registrado por: Milton Cuellar
+Depósito: 1234567 (23/10/2024)
+Registrado por: Cuellar
 Fecha: 16/01/2025 09:38
 
 ## Consideraciones
@@ -130,16 +130,16 @@ Tipo: Planilla
 AFP:
   AFP: Futuro
   Recibo: 123456
-  FPC: 789012
+  FPC: 765432
   Fecha: 15/06/2024
   Cheque: 987654
   Multa: 0.00
 
 Caja Cordes:
   Fecha: 15/06/2024
-  Depósito: 654321
-  GTC-11: 321098
-  Recibo: 456789
+  Depósito: 12345
+  GTC-11: 765432
+  Recibo: 2345667
   Multa: 0.00
 
   ## Consideraciones

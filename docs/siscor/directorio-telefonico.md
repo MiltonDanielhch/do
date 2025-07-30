@@ -27,7 +27,7 @@ Dentro de cada grupo, la tabla presenta la siguiente información:
 | Columna             | Descripción                                         | Tipo         | Ejemplo (DESPACHO DE GOBERNACIÓN) | Notas                                     |
 | :------------------ | :-------------------------------------------------- | :----------- | :-------------------------------- | :---------------------------------------- |
 | **Cargo Responsable**| El cargo oficial asociado al número interno.        | Texto        | `SECRETARIA DEL GOBERNADOR`       | Define la función o puesto.               |
-| **Nombre**          | Nombre completo de la persona que ocupa el cargo.   | Texto        | `MARTHA AMERICA ZABALA MENDEZ`    | Identifica a la persona.                  |
+| **Nombre**          | Nombre completo de la persona que ocupa el cargo.   | Texto        | `MARTHA AMERICA PEREZ`    | Identifica a la persona.                  |
 | **Número Interno**  | El número de extensión telefónica asignado.         | Numérico/Texto| `110`                             | El número corto para llamadas internas.   |
 | **Acciones**        | Botones para operaciones sobre el registro.         | (Botones)    | (Vacío en ejemplos)             | Probablemente `Editar`, `Eliminar`.       |
 
@@ -66,11 +66,11 @@ Al hacer clic en "Crear" o "Editar", se muestra un formulario con los siguientes
 **Grupo: DESPACHO DE GOBERNACIÓN**
 ```plaintext
 Cargo Responsable: SECRETARIA DEL GOBERNADOR
-Nombre: MARTHA AMERICA ZABALA MENDEZ
+Nombre: MARTHA AMERICA PEREZ 
 Número Interno: 110
 Acciones: (Varía)
 
 Cargo Responsable: SECRETARIA DE DESPACHO
-Nombre: MARIANA CRESPO
+Nombre: MARIANA PEREZ
 Número Interno: 112
 Acciones: (Varía)

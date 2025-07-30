@@ -64,7 +64,7 @@ Al final de la tabla de beneficiarios, se muestra el **Monto Total** de los agui
 
 ### Ejemplo de Cálculo (Individual)
 ```plaintext
-Nombre: KARINA ALMARAZ MONTOYA
+Nombre: pedro perez pereira
 Sueldo base promedio: 6.500,00 Bs.
 Días trabajados (en la gestión): 180
 Cálculo: (6.500,00 × 180) / 360 = 3.250,00 Bs.

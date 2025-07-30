@@ -27,8 +27,8 @@ La interfaz ofrece diferentes modos de visualización y puede mostrar una advert
 | AFP                     | Administradora de Fondos de Pensiones     | Texto    | "Gestora", "Futuro", "Previsión"                         |
 | MES                     | Mes al que corresponde el pago            | Texto    | "Enero", "Diciembre"                                     |
 | GESTIÓN                 | Año fiscal del pago                       | Numérico | 2025, 2024                                               |
-| APELLIDOS Y NOMBRE(S)   | Nombre completo del beneficiario          | Texto    | "CUELLAR JIMENEZ MILTON JESUS"                           |
-| C.I.                    | Carnet de identidad del beneficiario      | Texto    | "1931655"                                                |
+| APELLIDOS Y NOMBRE(S)   | Nombre completo del beneficiario          | Texto    | "PEREZ PEREIRA PEDRO "                           |
+| C.I.                    | Carnet de identidad del beneficiario      | Texto    | "12345678"                                                |
 | DÍAS TRAB.              | Días trabajados considerados para el pago | Numérico | 30                                                       |
 | LÍQUIDO                 | Monto neto a pagar al beneficiario (Bs.)  | Decimal  | 5569,47                                                  |
 | ESTADO                  | Situación actual del pago                 | Texto    | "Procesado", "Pagado", "Habilitado", "Anulado"           |
@@ -72,8 +72,8 @@ TIPO DE CONTRATO: Permanente
 AFP: Gestora
 MES: Enero
 GESTIÓN: 2025
-APELLIDOS Y NOMBRE(S): CUELLAR JIMENEZ MILTON JESUS
-C.I.: 1931655
+APELLIDOS Y NOMBRE(S): PEREZ PEREIRA JESUS
+C.I.: 1234567
 DÍAS TRAB.: 30
 LÍQUIDO: 5569,47
 ESTADO: Procesado

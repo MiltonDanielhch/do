@@ -29,8 +29,8 @@ La tabla principal presenta la siguiente información para cada registro de corr
 | **Fecha de registro**| Fecha y hora exactas en que se creó el registro. También muestra tiempo relativo. | Timestamp     | `30/04/2025 16:56:20` <br/> `hace 6 horas`              | Indica cuándo ingresó al sistema. El tiempo relativo es dinámico. |
 | **Nro. de cite**    | Número de referencia o cite único del documento original.                      | Alfanumérico  | `DDAI-114/2025`                                         | Clave para identificar el documento físico o digital original.     |
 | **Origen**          | Indica si la correspondencia es generada dentro (`Interna`) o fuera (`Externa`). | Texto         | `Interna`                                               | Define el flujo inicial.                                           |
-| **Remitente**       | Nombre de la persona, unidad (interna) o entidad (externa) que envía.          | Texto         | `GUSTAVO PEDRAZA BECERRA`                               | Quién origina la comunicación.                                     |
-| **Destinatario**    | Nombre de la persona o unidad interna a la que se dirige inicialmente.         | Texto         | `CLAUDIA VARGAS`                                        | Primer receptor dentro de la institución.                          |
+| **Remitente**       | Nombre de la persona, unidad (interna) o entidad (externa) que envía.          | Texto         | `GUSTAVO PEREZ`                               | Quién origina la comunicación.                                     |
+| **Destinatario**    | Nombre de la persona o unidad interna a la que se dirige inicialmente.         | Texto         | `CLAUDIA VACA`                                        | Primer receptor dentro de la institución.                          |
 | **Referencia**      | Asunto o tema principal de la correspondencia.                                 | Texto Largo   | `SOLICITUD DE DOCUMENTACIÓN E INFORMACION`              | Describe brevemente el contenido.                                  |
 | **Estado**          | Estado actual del trámite dentro del flujo de correspondencia.                 | Texto         | `Pendiente`                                             | Indica si está esperando acción, derivado, finalizado, etc.        |
 | **Acciones**        | Botones o iconos para realizar operaciones sobre el registro específico.       | (Botones)     | `Cambiar fecha`, `Ver`, `Editar`, `Anular`              | Las acciones disponibles pueden variar según el estado y permisos. |
@@ -51,8 +51,8 @@ ID: 100442
 Fecha de registro: 30/04/2025 16:56:20 (hace 6 horas)
 Nro. de cite: DDAI-114/2025
 Origen: Interna
-Remitente: GUSTAVO PEDRAZA BECERRA
-Destinatario: CLAUDIA VARGAS
+Remitente: GUSTAVO PEREZ
+Destinatario: CLAUDIA VACA
 Referencia: SOLICITUD DE DOCUMENTACIÓN E INFORMACION
 Estado: Pendiente
 Acciones: Cambiar fecha, Ver, Editar, Anular
@@ -114,8 +114,8 @@ ID: 100442
 Fecha de registro: 30/04/2025 16:56:20 (hace 6 horas)
 Nro. de cite: DDAI-114/2025
 Origen: Interna
-Remitente: GUSTAVO PEDRAZA BECERRA
-Destinatario: CLAUDIA VARGAS
+Remitente: GUSTAVO PEREZ
+Destinatario: CLAUDIA VACA
 Referencia: SOLICITUD DE DOCUMENTACIÓN E INFORMACION
 Estado: Pendiente
 Acciones: Cambiar fecha, Ver, Editar, Anular

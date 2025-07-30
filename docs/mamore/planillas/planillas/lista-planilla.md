@@ -33,7 +33,7 @@ La tabla principal presenta la siguiente información clave para cada planilla:
 | **Pendientes/Pagadas**    | Estado de los pagos individuales dentro de la planilla (visible en algunos estados).                         | Texto (`Pendientes 1 Pagadas 0`)                                                                                                              | Relevante para planillas en proceso o habilitadas.                                                                                                              |
 | **Monto**                 | Monto líquido total a pagar de la planilla.                                                                | Decimal con formato de moneda (`159.580,44`)                                                                                                  | Expresado en Bolivianos (Bs.).                                                                                                                                  |
 | **Detalles / Estado**     | Resumen de cálculos clave y estado actual de la planilla.                                                  | Texto multilinea: <br/> `Total ganado: 182.708,33` <br/> `Gestora: 36.206,78 (79)` <br/> `Total AFP : 36.206,78` <br/> `Estado: Pagada`       | Muestra el total bruto, descuentos principales (AFP/Gestora con cantidad de personas) y el estado actual (`Pendiente`, `Enviada`, `Aprobada`, `Habilitada`, `Cerrada`, `Pagada`, `Anulada`). |
-| **Creado por**            | Nombre del usuario que generó o registró la planilla en el sistema.                                        | Texto (`ZAHIRA DURAN CUELLAR`)                                                                                                                | Auditoría de creación.                                                                                                                                          |
+| **Creado por**            | Nombre del usuario que generó o registró la planilla en el sistema.                                        | Texto (`ZAHIRA PEREZ PEREZ`)                                                                                                                | Auditoría de creación.                                                                                                                                          |
 | **Fecha Creación**        | Fecha y hora en que se creó la planilla.                                                                   | Fecha y Hora (`13/02/2025 21:24`) <br/> Tiempo relativo (`hace 2 meses`)                                                                       | Auditoría de registro.                                                                                                                                          |
 | **Acciones**              | Operaciones disponibles para cada planilla.                                                                | Botones y Menú Desplegable (Ej: `Ver Detalle`, `[Enviar/Aprobar/Habilitar/Cerrar]`, `Más > [Exportar, Anular, Imprimir Boleta, ...]`)        | Muestra botones directos para la acción principal del flujo y "Ver Detalle", además de un menú "Más" para acciones secundarias. Las acciones varían según el estado. |
 
@@ -125,8 +125,8 @@ Tipo: eventual
 Periodo: 202501
 Personas: 79
 Monto: 159.580,44
-Detalles/Estado: Total ganado: 182.708,33 | Gestora: 36.206,78 (79) | Total AFP : 36.206,78 | Estado: Pagada
-Creado por: ZAHIRA DURAN CUELLAR
+Detalles/Estado: Total ganado: 183.08,33 | Gestora: 3.206,78 (79) | Total AFP : 6.206,78 | Estado: Pagada
+Creado por: ZAHI PEREZ
 Fecha Creación: 13/02/2025 21:24 (hace 2 meses)
 Acciones: Ver Detalle, Más > [Exportar PDF/Excel, Imprimir Boleta]
 ```

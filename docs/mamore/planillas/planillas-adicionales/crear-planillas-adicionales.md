@@ -58,8 +58,8 @@ Ventana modal (formulario emergente) utilizada para registrar pagos extraordinar
 
 ## Ejemplo de Datos de Registro
 ```plaintext
-CI: 8278261 (Ingresado)
-Funcionario: Tte VALENCIA MENDOZA IVAN (Autocompletado)
+CI: 12345678 (Ingresado)
+Funcionario: Tte PEREZ PEREIRA IVAN (Autocompletado)
 Sueldo Bs: 3500.00 (Autocompletado)
 Cargo: OFICIAL DE ENLACE (Autocompletado)
 Dias Trabajados: 30 (Ingresado)

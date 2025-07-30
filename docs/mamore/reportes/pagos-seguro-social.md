@@ -32,9 +32,9 @@ Dado que la estructura de la tabla no es visible en la imagen, a continuación s
 | :---------------------- | :-------------------------------------------------------------------------- | :------------ | :---------------------------------------- |
 | N°                      | Número secuencial del registro.                                             | Numérico      | 1                                         |
 | Periodo                 | Mes y año del pago.                                                         | Texto         | "202101"                                  |
-| Nombre Completo         | Nombres y apellidos del empleado.                                           | Texto         | "JUAN CARLOS ALMANZA"                     |
+| Nombre Completo         | Nombres y apellidos del empleado.                                           | Texto         | "JUAN PEREZ PEREIRA"                     |
 | CI                      | Cédula de Identidad del empleado.                                           | Texto         | "1234567"                                 |
-| NUA/CUA                 | Número Único Asignado o Código Único de Asegurado del empleado.             | Texto         | "98765432"                                |
+| NUA/CUA                 | Número Único Asignado o Código Único de Asegurado del empleado.             | Texto         | "9876545"                                |
 | AFP                     | Administradora de Fondos de Pensiones.                                      | Texto         | "Futuro de Bolivia"                       |
 | Sueldo Cotizable        | Monto del sueldo sobre el cual se calculan los aportes.                     | Numérico      | 5500.00                                   |
 | Aporte Laboral (AFP)    | Contribución del empleado a la AFP.                                         | Numérico      | 550.00                                    |
@@ -51,8 +51,8 @@ Dado que la estructura de la tabla no es visible en la imagen, a continuación s
 ```plaintext
 N°: 1
 Periodo: 202101
-Nombre Completo: SOFIA ALVAREZ ROCA
-CI: 7654321
+Nombre Completo: SOFIA PEREZ PEREIRA
+CI: 7654322
 NUA/CUA: 12345678
 AFP: Previsión BBVA
 Sueldo Cotizable: 6200.00

@@ -50,11 +50,11 @@ Módulo para administrar los memorándums financieros del Gobierno Autónomo Dep
 ## Ejemplo de Registro Completo
 ```plaintext
 N°: 0607/2025
-De: GILBERTO MENDOZA DEUGARTE (DIRECTOR DE FINANZAS)
-Para: WILGERS MEJÍA MOLINA (JEFE DE UNIDAD II)
+De: GILBERTO PEREZ PEREIRA (DIRECTOR DE FINANZAS)
+Para: WILGERS VACA (JEFE DE UNIDAD II)
 Tipo: CONSULTORIA EN LINEA
 Orden: Deposito
-Beneficiario: OMAR MILTON MONTAÑO PINTO (CI: 7587804)
+Beneficiario: OMAR MILTON PEREZ (CI: 3243456)
 Monto: 4.950,00 Bs.
 Fecha: 22/02/2025
 Registrado por: Monica (13/02/2025 17:32)
@@ -131,7 +131,7 @@ Fuente: Recursos propios
 Monto: 4.950,00
 Imputación: CONSULTORIA
 Sirvase: Realizar el pago correspondiente
-A la orden de: OMAR MILTON MONTAÑO PINTO
+A la orden de: OMAR MILTON PEREZ PEREIRA
 Concepto: Pago por servicios de consultoría en línea
 ```
 

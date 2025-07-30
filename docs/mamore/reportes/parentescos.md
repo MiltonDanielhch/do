@@ -22,7 +22,7 @@ El reporte presenta la información en un formato tabular con las siguientes col
 | N°                        | Número secuencial del registro en la vista actual del reporte.              | Numérico      | 1                                                |
 | APELLIDOS                 | Apellidos completos del funcionario.                                        | Texto         | "ARIAS MORENO"                                   |
 | NOMBRES                   | Nombres completos del funcionario.                                          | Texto         | "MANUEL"                                         |
-| CÉDULA DE IDENTIDAD       | Número de Cédula de Identidad del funcionario.                              | Texto/Numérico| "1987948"                                        |
+| CÉDULA DE IDENTIDAD       | Número de Cédula de Identidad del funcionario.                              | Texto/Numérico| "1234567"                                        |
 | INAMOVILIDAD              | Indica si el funcionario posee algún tipo de inamovilidad laboral (Sí/No).  | Texto         | "No"                                             |
 | PLANILLA                  | Tipo de planilla a la que pertenece el funcionario (ej. permanente, eventual). | Texto         | "eventual"                                       |
 | CARGO                     | Denominación del puesto o cargo del funcionario.                            | Texto         | "Auxiliar III"                                   |
@@ -32,11 +32,11 @@ El reporte presenta la información en un formato tabular con las siguientes col
 
 | N° | APELLIDOS       | NOMBRES   | CÉDULA DE IDENTIDAD | INAMOVILIDAD | PLANILLA | CARGO        | DIRECCIÓN ADMINSTRATIVA                          |
 |----|-----------------|-----------|---------------------|--------------|----------|--------------|--------------------------------------------------|
-| 1  | ARIAS MORENO    | MANUEL    | 1987948             | No           | eventual | Auxiliar III | Secretaria Departamental Obras Publicas          |
-| 2  | ARIAS MORENO    | FRANCISCO | 10815919            | No           | eventual | Sereno III   | Hospital Materno Infantil                        |
-| 3  | AYALA OJEDA     | ANGEL     | 1900699             | No           | eventual | Tecnico IV   | CODEPEDIS-BENI                                   |
-| 4  | AYALA OJEDA     | ALFREDO   | 1900690             | No           | eventual | Asistente IV | Secretaria Departamental de Administracion y Finanzas |
-| 5  | CAMAMA GUALEVE  | MIGUELINA | 7601081             | No           | eventual | Limpieza III | Hospital Materno Infantil                        |
+| 1  | PEREZ PEREIRA    | MANUEL    | 1234567             | No           | eventual | Auxiliar III | Secretaria Departamental Obras Publicas          |
+| 2  | ARIAS PEREZ    | FRANCISCO | 1234567            | No           | eventual | Sereno III   | Hospital Materno Infantil                        |
+| 3  | PEREZ OJEDA     | ANGEL     | 1345678             | No           | eventual | Tecnico IV   | CODEPEDIS-BENI                                   |
+| 4  | PEREZ     | ALFREDO   | 12345677             | No           | eventual | Asistente IV | Secretaria Departamental de Administracion y Finanzas |
+| 5  | CAMAMA PEREZ  | MIGUELINA | 7345678             | No           | eventual | Limpieza III | Hospital Materno Infantil                        |
 
 ## Consideraciones Adicionales
 - Este reporte es una herramienta de transparencia y control interno.

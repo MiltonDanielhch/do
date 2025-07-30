@@ -88,14 +88,14 @@ Este botón despliega un menú con opciones avanzadas:
 
 ```plaintext
 ID: 4008
-Nombre completo: ANA KARINA LEIGUE AVILA
-(Profesión): PSICOPEDAGOGIA
+Nombre completo: ANA DANIEL PEREZ PEREZ
+(Profesión): ABOGADA
 (Estado): Contrato en proceso
-CI: 4172732 BN
+CI: 87654321 BN
 Lugar nac.: SANTISIMA TRINIDAD
 Fecha nac.: 31/10/1981 (43 años)
-Telefono: 60846997
-AFP: Gestora (NUA/CUA: 35400547)
-Registrado: Priscila Hisita Vallejos - 13/02/2025 10:42 (hace 2 meses)
+Telefono: 12345678
+AFP: Gestora (NUA/CUA: 12345678)
+Registrado: pedro perez pereira - 13/02/2025 10:42 (hace 2 meses)
 Acciones: Más, Ver, Editar, Borrar
 ```

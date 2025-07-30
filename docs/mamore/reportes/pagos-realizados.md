@@ -27,7 +27,7 @@ El reporte presenta la información en un formato tabular con las siguientes col
 | PERIODO                  | Mes y año al que corresponde el gasto o el pago.                            | Texto         | "Mayo 2025"                               |
 | AFP                      | Administradora de Fondos de Pensiones (si el pago está relacionado).        | Texto         | "Futuro de Bolivia"                       |
 | FECHA PAGO               | Fecha en que se efectuó el pago.                                            | Fecha         | "07/05/2025"                              |
-| CAJERO(A)                | Nombre o identificador del cajero que procesó el pago.                      | Texto         | "ANA GOMEZ"                               |
+| CAJERO(A)                | Nombre o identificador del cajero que procesó el pago.                      | Texto         | "ANA PEREZ"                               |
 | OBSERVACIONES            | Notas o comentarios adicionales sobre el pago.                              | Texto         | "Pago urgente según solicitud DIR-001"    |
 | MONTO                    | Importe del pago realizado, en Bolivianos.                                  | Numérico      | 350.00                                    |
 
@@ -44,12 +44,12 @@ Si después de aplicar los filtros no se encuentran pagos realizados que coincid
 N°: 1
 DIRECCIÓN ADMINISTRATIVA: Dirección de Recursos Humanos
 DETALLE: Reembolso Gastos Médicos
-CI: 9876543 SC
+CI: 34567876 SC
 TIPO: Reembolso
 PERIODO: Abril 2025
 AFP: N/A
 FECHA PAGO: 07/05/2025
-CAJERO(A): CARLOS RUIZ
+CAJERO(A): CARLOS
 OBSERVACIONES: Factura N° 1234, Clínica ABC
 MONTO: 480.50
 ```

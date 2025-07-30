@@ -20,7 +20,7 @@ Este módulo permite visualizar, buscar y gestionar los archivos digitales asoci
 | Tipo planilla | Clasificación de la planilla | Texto | "eventual", "Permanente" |
 | Tipo de archivo | Naturaleza del documento adjunto | Texto | "biométrico", "rc-iva" |
 | Estado | Situación actual del archivo en el sistema | Texto | "Cargado", "Observado" |
-| Creado por | Nombre del usuario que realizó la carga | Texto | "alexander guaji parada" |
+| Creado por | Nombre del usuario que realizó la carga | Texto | "alexander " |
 | Fecha | Fecha y hora de carga, con indicación relativa | Fecha/Texto | "12/02/2025 (hace 2 meses)" |
 | Acciones | Operaciones disponibles sobre el archivo | Iconos | (Ver, Descargar, Editar, Eliminar) |
 
@@ -69,6 +69,6 @@ Periodo: 202501
 Tipo planilla: eventual
 Tipo archivo: biométrico
 Estado: Cargado
-Creado por: alexander guaji parada
+Creado por: alexander
 Fecha: 12/02/2025 (hace 2 meses)
 Acciones: [Icono Ver] [Icono Descargar] [Icono Editar] [Icono Eliminar]

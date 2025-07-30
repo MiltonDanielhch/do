@@ -38,10 +38,10 @@ El reporte presenta la información en un formato tabular con las siguientes col
 | Código                         | Identificador único o código asignado al contrato.                                   | Texto/Numérico| "01/2022"                                                     |
 | Tipo                           | Tipo de contrato (ej. Permanente, Eventual, Consultor).                              | Texto         | "Permanente"                                                  |
 | Nombre(s)                      | Nombres del empleado.                                                                | Texto         | "LENY"                                                        |
-| Apellidos                      | Apellidos completos del empleado.                                                    | Texto         | "NOE NOE"                                                     |
-| CI                             | Número de Cédula de Identidad del empleado.                                          | Texto         | "7603618"                                                     |
+| Apellidos                      | Apellidos completos del empleado.                                                    | Texto         | "NOE PEREZ"                                                     |
+| CI                             | Número de Cédula de Identidad del empleado.                                          | Texto         | "1234567"                                                     |
 | Género                         | Género del empleado.                                                                 | Texto         | "femenino"                                                    |
-| NUA/CUA                        | Número Único Asignado o Código Único de Asegurado en la AFP.                         | Texto/Numérico| "47440491"                                                    |
+| NUA/CUA                        | Número Único Asignado o Código Único de Asegurado en la AFP.                         | Texto/Numérico| "123456678"                                                    |
 | Cargo                          | Denominación del puesto o cargo del empleado.                                        | Texto         | "Auxiliar I-Memoria Institucional"                            |
 | Nivel                          | Nivel salarial o jerárquico asociado al cargo.                                       | Numérico/Texto| "20"                                                          |
 | Sueldo                         | Monto del sueldo mensual asignado, en Bolivianos.                                    | Numérico      | 3.400,00                                                      |
@@ -65,10 +65,10 @@ Unidad administrativa:
 Código: 01/2022
 Tipo: Permanente
 Nombre(s): LENY
-Apellidos: NOE NOE
-CI: 7603618
+Apellidos: PEREZ PERIERIA
+CI: 1234567
 Género: femenino
-NUA/CUA: 47440491
+NUA/CUA: 1234568
 Cargo: Auxiliar I-Memoria Institucional
 Nivel: 20
 Sueldo: 3.400,00
@@ -82,5 +82,5 @@ Monto contrato + adenda:
 Programa/Proyecto: ADMINISTRACION SECRETARIA DE ADMINISTRACION Y FINANZAS
 Cat. prog.: 00 0 01
 Estado: concluido
-Registrado: erick saavedra vaca
+Registrado: erick 
             19/02/2022 00:28

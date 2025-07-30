@@ -23,9 +23,9 @@ El reporte presenta la información en un formato tabular con las siguientes col
 | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------ | :---------------------------------------- |
 | N°                | Número secuencial del registro en la vista actual del reporte.                                                                                                                                          | Numérico      | 1                                         |
 | PLANILLA          | Indica el tipo de planilla del funcionario (ej. "Permanente"). Debajo de este dato, en la misma celda visual, se muestra el nombre completo y el cargo del funcionario.                                  | Texto         | Permanente                                |
-| NOMBRE COMPLETO   | Nombre completo del funcionario. En la visualización del reporte, este dato aparece agrupado bajo la columna "PLANILLA", debajo del tipo de planilla y seguido por el cargo.                             | Texto         | FERNANDO ARIAS DURAN                      |
+| NOMBRE COMPLETO   | Nombre completo del funcionario. En la visualización del reporte, este dato aparece agrupado bajo la columna "PLANILLA", debajo del tipo de planilla y seguido por el cargo.                             | Texto         | FERNANDO PEREZ PEREIRA                      |
 | (Cargo)           | Cargo del funcionario. En la visualización del reporte, este dato aparece bajo el nombre completo del funcionario, dentro de la agrupación de la columna "PLANILLA".                                     | Texto         | Secretario/a General de Gobernación       |
-| CI                | Número de Cédula de Identidad del funcionario.                                                                                                                                                          | Texto/Numérico| 1911556                                   |
+| CI                | Número de Cédula de Identidad del funcionario.                                                                                                                                                          | Texto/Numérico| 1234567                                   |
 | INICIO            | Fecha de inicio considerada para el cálculo del aguinaldo. Puede estar vacía si se considera el año completo o si el inicio es anterior al periodo de cálculo principal (ej. inicio de gestión).         | Fecha         | (Vacío en el ejemplo)                     |
 | FIN               | Fecha de fin considerada para el cálculo del aguinaldo (usualmente el 31 de diciembre del año de gestión).                                                                                              | Fecha         | 31-12-2022                                |
 | DÍAS TRAB.        | Número total de días trabajados por el funcionario durante el periodo de cálculo del aguinaldo.                                                                                                         | Numérico      | 360                                       |
@@ -44,7 +44,7 @@ Ejemplo (basado en la imagen):
 
 | N° | PLANILLA   | NOMBRE COMPLETO        | CARGO                               | CI      | INICIO | FIN        | DÍAS TRAB. | MESES | SUELDO PROMEDIO (Detalle)        | AGUINALDO |
 |----|------------|------------------------|-------------------------------------|---------|--------|------------|------------|-------|----------------------------------|-----------|
-| 1  | Permanente | FERNANDO ARIAS DURAN   | Secretario/a General de Gobernación | 1911556 |        | 31-12-2022 | 360        |       | 12.500,00<br/>12.500,00<br/>12.500,00<br/>**12.500,00** | 12.500,00 |
+| 1  | Permanente | FERNANDO PEREZ PEREIRA   | Secretario/a General de Gobernación | 1234567 |        | 31-12-2022 | 360        |       | 12.500,00<br/>12.500,00<br/>12.500,00<br/>**12.500,00** | 12.500,00 |
 
 *(El detalle del Sueldo Promedio muestra los 3 sueldos base y el promedio final en negrita)*
 

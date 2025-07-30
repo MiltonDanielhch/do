@@ -27,11 +27,11 @@ La tabla principal presenta la siguiente información para cada bono asignado:
 | :----------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**       | Identificador único del registro del bono.                                                              | Numérico (`232`)                                                                                               | Asignado automáticamente.                                                                                                        |
 | **Periodo**  | Rango de años de servicio que califica para el bono.                                                    | Texto (`8 a 10 años`, `2 a 4 años`)                                                                            | Define el nivel del bono según la antigüedad.                                                                                    |
-| **Persona**  | Nombre completo del beneficiario del bono.                                                              | Texto (`KATHIA YBAÑEZ PARADA`) <br/> `(CI)` (`7601616`)                                                         | Muestra el nombre y el CI para identificación clara.                                                                             |
+| **Persona**  | Nombre completo del beneficiario del bono.                                                              | Texto (`KATHIA PEREZ PEREZ`) <br/> `(CI)` (`1234567`)                                                         | Muestra el nombre y el CI para identificación clara.                                                                             |
 | **Planilla** | Tipo de planilla a la que pertenece la persona (puede influir en la aplicabilidad del bono).              | Texto (`Permanente`)                                                                                           |                                                                                                                                  |
 | **Inicio**   | Fecha en la que el bono se hace efectivo o comienza a aplicarse para el periodo actual.                 | `DD/MM/YYYY` (`26/11/2024`)                                                                                    |                                                                                                                                  |
 | **Estado**   | Indica si el registro del bono está actualmente activo o inactivo.                                      | Texto (`Activo`)                                                                                               | Controla la vigencia del registro.                                                                                               |
-| **Registrado**| Información sobre quién y cuándo se realizó el registro del bono.                                       | Usuario (`THALIA ANDREA SUAREZ CHAVEZ`) <br/> Fecha y Hora (`23/12/2024 10:40`) <br/> Tiempo relativo (`hace 4 meses`) | Auditoría básica del registro.                                                                                                   |
+| **Registrado**| Información sobre quién y cuándo se realizó el registro del bono.                                       | Usuario (`THALIA ANDREA`) <br/> Fecha y Hora (`23/12/2024 10:40`) <br/> Tiempo relativo (`hace 4 meses`) | Auditoría básica del registro.                                                                                                   |
 | **Acciones** | Operaciones disponibles para cada registro de bono.                                                     | Botones (Ej: `Editar`, `Activar/Desactivar`, `Historial`)                                                      | Permite gestionar el registro específico. (Los botones exactos pueden variar).                                                   |
 
 ## Añadir Bono de Antigüedad (Formulario)
@@ -87,9 +87,9 @@ Al hacer clic en "Añadir Bono antigüedad", se muestra un formulario para regis
 ```plaintext
 ID: 232
 Periodo: 8 a 10 años
-Persona: KATHIA YBAÑEZ PARADA (CI: 7601616)
+Persona: KATHIA PEREZ PEREZ (CI: 12345678)
 Planilla: Permanente
 Inicio: 26/11/2024
 Estado: Activo
-Registrado: THALIA ANDREA SUAREZ CHAVEZ - 23/12/2024 10:40 (hace 4 meses)
+Registrado: THALIA ANDREA - 23/12/2024 10:40 (hace 4 meses)
 Acciones: (Varía)

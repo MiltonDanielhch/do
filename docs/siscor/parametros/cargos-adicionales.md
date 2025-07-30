@@ -36,7 +36,7 @@ La tabla principal muestra un resumen de los cargos adicionales registrados:
 
 ```plaintext
 Id°: 18
-Funcionario: MARCOS MACHICADO ZURITA
+Funcionario: MARCOS PEREZ
 Cargo: DIRECTOR TÉCNICO DEL SEDES BENI
 Estado: Activo
 ```

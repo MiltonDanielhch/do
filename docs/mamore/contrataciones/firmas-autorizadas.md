@@ -14,8 +14,8 @@ Módulo para gestionar las firmas autorizadas para procesos contractuales en el 
 | Id | Identificador único | Numérico | 139 |
 | Dirección Administrativa | Unidad responsable | Texto | "Corregimiento Municipio de Trinidad" |
 | Tipo | Tipo de autorización | Dropdown | "RPA", "Inmediato superior" |
-| Nombre completo | Funcionario autorizado | Texto | "MILTON DANIEL HIPAMO CHOLIMA" |
-| CI | Carnet de identidad | Texto | "10824260" |
+| Nombre completo | Funcionario autorizado | Texto | "PEDRO PEREZ PEREIRA" |
+| CI | Carnet de identidad | Texto | "12345678" |
 | Cargo | Posición institucional | Texto | "RESPONSABLE CONTRATACION" |
 | Tipo de designación | Instrumento legal | Texto | "Resolución Administrativa" |
 | Decreto de designación | Número de documento | Texto | "04/2025" |
@@ -81,8 +81,8 @@ Módulo para gestionar las firmas autorizadas para procesos contractuales en el 
 Id: 139
 Dirección: Corregimiento Municipio de Trinidad
 Tipo: RPA
-Nombre: MILTON DANIEL HIPAMO CHOLIMA
-CI: 10824260
+Nombre: PEDRO PEREZ PEREIRA
+CI: 12345678
 Cargo: RESPONSABLE CONTRATACION
 Designación: Resolución Administrativa de Gobernación 04/2025
 Fecha: 2025-04-01

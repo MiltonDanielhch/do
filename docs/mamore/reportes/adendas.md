@@ -55,12 +55,12 @@ Dirección administrativa: Secretaria Departamental de Obras Publicas
 Unidad administrativa: Mantenimiento Vial
 Código: SOP-TEC-003/2021
 Tipo: Consultor en línea
-Nombre(s): CARLOS ALBERTO
-Apellidos: PEREZ GOMEZ
+Nombre(s): CARLOS ROBERTO
+Apellidos: PEREZ PEREIRA
 CI: 1234567 LP
 Género: masculino
 Cargo: Especialista en Puentes
-Nivel: Profesional III
+Nivel: Profesional II
 Sueldo: 8.000,00
 Inicio contrato principal: 15/02/2021
 Fin contrato principal: 15/07/2021
@@ -71,5 +71,5 @@ Fin de adenda: 15/10/2021
 Duración adenda (días): 91
 Monto adenda: 24.000,00
 Estado: Concluido
-Registrado: juan.diaz
+Registrado: juaN
             10/07/2021 14:20

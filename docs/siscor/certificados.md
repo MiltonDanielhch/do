@@ -28,8 +28,8 @@ La tabla principal presenta la siguiente información para cada certificado:
 | **TIPO**         | Clasificación del certificado.                                  | Texto              | `interno`                          | Diferencia entre tipos (ej. Trabajo, No Adeudo, etc.).             |
 | **PRECIO**       | Costo asociado a la emisión del certificado, si aplica.         | Numérico (Decimal) | `0.00`                             | Indica si el certificado tiene un valor monetario.                 |
 | **CI**           | Cédula de Identidad de la persona a quien se emite.             | Alfanumérico       | `4196168`                          | Identificador del beneficiario/solicitante.                        |
-| **NOMBRE**       | Nombre completo de la persona a quien se emite el certificado.  | Texto              | `ABSALON ROJAS NOSA`               | Nombre del beneficiario/solicitante.                               |
-| **REGISTRADO POR**| Nombre del funcionario que generó o registró el certificado.    | Texto              | `HALDO MAURICIO GUALACHAVO VACA` | Registra quién realizó la operación en el sistema.                 |
+| **NOMBRE**       | Nombre completo de la persona a quien se emite el certificado.  | Texto              | `ABSALON ROJAS PEREZ`               | Nombre del beneficiario/solicitante.                               |
+| **REGISTRADO POR**| Nombre del funcionario que generó o registró el certificado.    | Texto              | `HALDO MAURICIO PEREZ` | Registra quién realizó la operación en el sistema.                 |
 | **ACCIONES**     | Botones o iconos para realizar operaciones sobre el registro.   | (Botones/Iconos)   | (Vacío en ejemplos)                | Las acciones (Ver, Imprimir, Anular) pueden variar según permisos. |
 
 ## Acciones Comunes (Disponibles por registro)
@@ -46,17 +46,17 @@ CODIGO: ARN24308
 TIPO: interno
 PRECIO: 0.00
 CI: 4196168
-NOMBRE: ABSALON ROJAS NOSA
-REGISTRADO POR: HALDO MAURICIO GUALACHAVO VACA
+NOMBRE: ABSALON PEREZ
+REGISTRADO POR: HALDO MAURICIO PEREZ
 ACCIONES: (Varía)
 
 # Ejemplo 2
 CODIGO: CNM24307
 TIPO: interno
 PRECIO: 0.00
-CI: 7637808
+CI: 2345678
 NOMBRE: CAMILA NAVIA MONJE
-REGISTRADO POR: HALDO MAURICIO GUALACHAVO VACA
+REGISTRADO POR: HALDO MAURICIO PEREZ
 ACCIONES: (Varía)
 
 # Ejemplo 3 (Original)
@@ -64,8 +64,8 @@ CODIGO: LOM24135
 TIPO: interno
 PRECIO: 0.00
 CI: 1901006
-NOMBRE: LEOPOLDINA OJOPI MUYURO
-REGISTRADO POR: HALDO MAURICIO GUALACHAVO VACA
+NOMBRE: LEOPOLDINA PEREZ
+REGISTRADO POR: HALDO VACA
 ACCIONES: (Varía)
 ```
 

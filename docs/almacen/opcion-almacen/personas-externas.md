@@ -10,7 +10,7 @@ Este módulo permite administrar el registro y la autorización de personas exte
 
 ## Tablero Principal de Personas Externas ("People_ext")
 
-El tablero principal muestra el listado de todas las personas externas registradas, permitiendo su consulta y gestión. La interfaz incluye elementos como el logo y el nombre del usuario conectado (Ej: `MILTON DANIEL HIPAMO CHOLIMA`).
+El tablero principal muestra el listado de todas las personas externas registradas, permitiendo su consulta y gestión. La interfaz incluye elementos como el logo y el nombre del usuario conectado (Ej: `CARLOS PEREIRA PERAIRA`).
 
 ### Funcionalidades Clave del Tablero:
 

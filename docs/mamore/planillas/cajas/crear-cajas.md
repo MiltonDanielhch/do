@@ -76,6 +76,6 @@ Desglose Fondos:
 - ... (otros cortes en 0)
 Total Fondo Inicial: 600.00 Bs.
 
-Cajero: Paola Muñoz (Automático)
+Cajero: Paola  (Automático)
 Nombre de la caja: Caja 1
 Observaciones: Apertura turno mañana.

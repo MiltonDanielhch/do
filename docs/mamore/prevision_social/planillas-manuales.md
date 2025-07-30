@@ -19,7 +19,7 @@ Módulo para gestionar planillas de pago ingresadas manualmente en el sistema de
 | Nro Personas | Beneficiarios | Numérico | 29 |
 | Total | Monto total | Decimal | 76.694,51 |
 | Total AFP | Aportes patronales | Decimal | 14.687,10 |
-| Registrado por | Usuario que ingresó | Texto | "Romied Loras" |
+| Registrado por | Usuario que ingresó | Texto | "Romied" |
 | Registrado el | Fecha de ingreso | Timestamp | "16/02/2022 14:57" |
 
 ## Detalles Expandidos

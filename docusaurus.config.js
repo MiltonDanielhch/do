@@ -30,6 +30,18 @@ export default {
       },
     ],
   ],
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['es'],
+        docsRouteBasePath: '/',
+        indexBlog: false,
+        indexPages: true,
+      },
+    ],
+  ],
   themes: ['@docusaurus/theme-mermaid'],
   markdown: {
     mermaid: true,
@@ -75,13 +87,6 @@ export default {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['powershell', 'bash', 'json'],
-    },
-     search: {
-      indexDocs: true,
-      indexBlog: true,
-      indexPages: true,
-      language: "es",
-      style: undefined,
     },
   },
 };

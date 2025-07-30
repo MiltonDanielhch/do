@@ -45,7 +45,7 @@ La tabla principal muestra la siguiente información clave para cada solicitud:
     **Cabecera de la Solicitud:**
     *   **Almacen:** Nombre del almacén de destino (Ej: `ALMACEN - ALMACEN CENTRAL GAD-BENI`)
     *   **Nro Solicitud:** Código formal de la solicitud (Ej: `DRRHH-0012/2023`)
-    *   **Solicitante:** Nombre y cargo del funcionario (Ej: `CAROLINA RODRIGUEZ RIBERA - DIRECTOR DPTAL. DE RECURSOS HUMANOS`)
+    *   **Solicitante:** Nombre y cargo del funcionario (Ej: `CAROLINA RODRIGUEZ  - DIRECTOR DPTAL. DE RECURSOS HUMANOS`)
     *   **Fecha de Solicitud:** Fecha y hora de la solicitud (Ej: `17/01/2024 00:00:00`)
     *   **Dirección:** Dirección administrativa a la que pertenece la unidad (Ej: `Secretaria Departamental de Administracion y Finanzas`)
     *   **Unidad:** Unidad administrativa específica que solicita (Ej: `DIRECCIÓN DPTAL. DE RECURSOS HUMANOS GAD - BENI`)

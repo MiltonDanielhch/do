@@ -12,7 +12,7 @@ El reporte ofrece las siguientes opciones para filtrar la información:
 
 -   **Identificador del Funcionario**:
     *   Permite ingresar el número de Cédula de Identidad, código de empleado u otro identificador único del funcionario.
-    *   Ejemplo: "5589987".
+    *   Ejemplo: "12345678".
 -   **Año**:
     *   Permite seleccionar el año para el cual se desea visualizar las marcaciones.
     *   Ejemplo: "2023".

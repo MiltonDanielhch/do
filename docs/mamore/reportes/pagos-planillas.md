@@ -53,8 +53,8 @@ Dirección administrativa: Secretaria de Gobernacion General
 Unidad administrativa:
 Código: SDGG-05/2023
 Tipo: Permanente
-Nombre completo: ARIAS DURAN FERNANDO
-CI: 1911556
+Nombre completo: PEREZ PEREIRA FERNANDO
+CI: 1234567
 Inicio: 01/03/2023
 Cargo: Secretario General de Gobernación
 Nivel: 3

@@ -16,10 +16,10 @@ Módulo para administrar la base de datos de beneficiarios (funcionarios, provee
 | :--------------- | :------------------------------------------------ | :-------- | :------------------------------------------- |
 | Id               | Identificador único del beneficiario              | Numérico  | 1628                                         |
 | Tipo             | Clasificación del beneficiario                    | Texto     | "Funcionario", "Proveedor"                   |
-| Persona          | Nombre completo y/o CI/NIT del beneficiario       | Texto     | "7587804 OMAR MILTON MONTAÑO PINTO"          |
+| Persona          | Nombre completo y/o CI/NIT del beneficiario       | Texto     | "7587804 OMAR MILTON PEREZ PINTO"          |
 | Razón social     | Nombre legal (si aplica, ej. para proveedores)    | Texto     | -                                            |
-| CI/NIT           | Documento de identidad (puede ser redundante)     | Texto     | "7587804"                                    |
-| Telefono/Celular | Número de contacto principal                      | Texto     | "69407779"                                   |
+| CI/NIT           | Documento de identidad (puede ser redundante)     | Texto     | "123456778"                                    |
+| Telefono/Celular | Número de contacto principal                      | Texto     | "12345678"                                   |
 | Location         | Ubicación o dirección (si aplica)                 | Texto     | -                                            |
 | Creado           | Fecha y hora de registro, con indicación relativa | Timestamp | "2025-02-13 17:31:38 / hace 2 meses"         |
 | Acciones         | Operaciones disponibles sobre el registro         | Iconos    | (Ver Detalle, Editar, Eliminar, Historial)   |
@@ -54,10 +54,10 @@ Módulo para administrar la base de datos de beneficiarios (funcionarios, provee
 ```plaintext
 Id: 1628
 Tipo: Funcionario
-Persona: 7587804 OMAR MILTON MONTAÑO PINTO
+Persona: 7587804 OMAR MILTON PEREZ
 Razón social: -
-CI/NIT: 7587804
-Telefono/Celular: 69407779
+CI/NIT: 12345678
+Telefono/Celular: 12345678
 Location: -
 Creado: 2025-02-13 17:31:38 / hace 2 meses
 Acciones: [Icono Editar] [Icono Ver Detalle]
@@ -109,10 +109,10 @@ Formulario para agregar nuevos beneficiarios al sistema del Gobierno Autónomo D
 ## Ejemplo de Registro
 ```plaintext
 Tipo: Funcionario
-Nombre: OMAR MILTON MONTAÑO PINTO
-CI: 7587804
+Nombre: OMAR MILTON PEREZ PEREIRA
+CI: 2345678
 Cuenta: 1234567890
-Celular: 69407779
+Celular: 234567
 Email: omar.montano@example.com
 Dirección: Av. Ejército #123, Trinidad
 ```

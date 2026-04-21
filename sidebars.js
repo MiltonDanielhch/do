@@ -218,7 +218,19 @@ const sidebars = {
         },
         'siscor/directorio-telefonico',
         'siscor/directorio-grupos',
-        'siscor/reportes'
+        'siscor/vias-derivacion',
+        'siscor/arbol-derivaciones',
+        'siscor/cambio-fecha',
+        'siscor/busqueda-tramites',
+        'siscor/archivar-rechazar',
+        'siscor/reportes',
+        'siscor/reservas',
+        'siscor/personerias',
+        'siscor/embargos',
+        'siscor/mensajes-whatsapp',
+        'siscor/enlace-tramites',
+        'siscor/exchange',
+        'siscor/ROADMAP'
       ]
     },
     {

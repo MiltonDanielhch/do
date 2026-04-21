@@ -98,7 +98,106 @@ A continuación, se muestra un ejemplo de cómo se verían los datos en el repor
 
 ## Consideraciones Adicionales
 
-*   Este reporte es útil para obtener una visión general de la actividad documental en un período determinado.
-*   Puede ser utilizado para auditorías, seguimiento de trámites específicos o para entender la carga de trabajo documental.
-*   La utilidad y el alcance exacto del reporte "Documentos" pueden variar según la implementación específica de SISCOR en la institución.
-*   Al igual que otros reportes, es probable que exista la opción de exportarlo a formatos como PDF o Excel.
+* Este reporte es útil para obtener una visión general de la actividad documental en un período determinado.
+* Puede ser utilizado para auditorías, seguimiento de trámites específicos o para entender la carga de trabajo documental.
+* La utilidad y el alcance exacto del reporte "Documentos" pueden variar según la implementación específica de SISCOR en la institución.
+* Al igual que otros reportes, es probable que exista la opción de exportarlo a formatos como PDF o Excel.
+
+---
+
+# Reporte: Bandeja de Entrada
+
+## Introducción
+
+El reporte de "Bandeja de Entrada" permite visualizar todos los documentos pendientes de atención de un funcionario específico en un período de tiempo determinado. Es útil para supervisores y para el propio funcionario para hacer seguimiento de su carga de trabajo.
+
+## Cómo Acceder
+
+**Ruta:** `admin/report/bandeja`
+
+## Filtros del Reporte
+
+| Campo | Descripción | Ejemplo |
+|-------|-------------|---------|
+| **Funcionario** | Seleccionar el funcionario a reportar | José Pérez |
+| **Fecha Desde** | Fecha de inicio del período | 01/04/2025 |
+| **Fecha Hasta** | Fecha de fin del período | 30/04/2025 |
+
+## Descripción de las Columnas
+
+| Columna | Descripción |
+|---------|-------------|
+| **ID** | Identificador de la derivación |
+| **Entrada** | ID de la entrada/hoja de ruta |
+| **Cite** | Número de cite del documento |
+| **Remitente** | Persona o entidad que envió el documento |
+| **Referencia** | Asunto del documento |
+| **Fecha Derivación** | Fecha cuando fue derivado al funcionario |
+| **Estado** | Estado actual del trámite |
+| **Visto** | Indicador si el funcionario ha visto el documento |
+
+## Estados Incluidos/Excluidos
+
+El reporte exclude automáticamente los estados:
+- Estado ID 4 (Finalizado)
+- Estado ID 6 (Archivado)
+
+Solo muestra documentos **pendientes** de atención.
+
+## Casos de Uso
+
+1. **Supervisión:** El supervisor puede ver la carga de trabajo de cada funcionario
+2. **Control Personal:** El funcionario revisa sus documentos pendientes
+3. **Auditoría:** Verificar que los documentos están siendo atendidos oportunamente
+4. **Planificación:** Identificar acumulación de documentos en algún funcionario
+
+---
+
+# Reporte: RDE Documents (Documentos Derivados)
+
+## Introducción
+
+El reporte "RDE Documents" muestra un listado de documentos que han sido derivados, agrupados por cite. A diferencia del reporte de ingresos que muestra el registro inicial, este reporte enfoca en las derivaciones realizadas.
+
+## Cómo Acceder
+
+**Ruta:** `admin/report/rde-documents`
+
+## Filtros del Reporte
+
+| Campo | Descripción |
+|-------|-------------|
+| **Fecha Desde** | Fecha de inicio del período |
+| **Fecha Hasta** | Fecha de fin del período |
+
+## Descripción de las Columnas
+
+| Columna | Descripción |
+|---------|-------------|
+| **Fecha** | Fecha de creación/registro del documento |
+| **Cite** | Número de cite único del documento |
+| **Origen** | Entidad de origen del documento |
+| **Remitente** | Persona que envía el documento |
+| **Referencia** | Asunto del documento |
+| **Funcionario** | Nombre del funcionario que recibió la derivación |
+| **Cargo** | Cargo del funcionario receptor |
+
+## Características Especiales
+
+- **Agrupación por Cite:** El reporte agrupa los resultados por número de cite, evitando duplicados
+- **Solo Derivaciones:** Muestra únicamente documentos que han sido derivados (no los pendientes de derivar)
+- **Documentos Externos:** Filtra solo correspondence de tipo "E" (Externo)
+
+## Diferencias con Otros Reportes
+
+| Reporte | Enfoque |
+|---------|---------|
+| Ingresos RDE | Documentos registrados (entrada) |
+| Bandeja | Documentos pendientes por funcionario |
+| RDE Documents | Documentos derivados (salida) |
+
+## Consideraciones
+
+- Este reporte es útil para verificar el flujo de documentos salientes
+- Permite identificar qué funcionarios están recibiendo más documentos
+- Útil para análisis de carga laboral por área

@@ -32,7 +32,8 @@ const sidebars = {
               label: '📄 Contratos',
               items: [
                 'mamore/contrataciones/crear-contrato',
-                'mamore/contrataciones/lista-contrato'
+                'mamore/contrataciones/lista-contrato',
+                'mamore/contrataciones/gestion-avanzada'
               ]
             }
           ]
@@ -106,12 +107,38 @@ const sidebars = {
         'mamore/cheques',
         {
           type: 'category',
+          label: '📨 Correspondencia',
+          items: [
+            'mamore/correspondencia/bandeja-entrada',
+            'mamore/correspondencia/bandeja-salida',
+          ]
+        },
+        {
+          type: 'category',
+          label: '👷 Recursos Humanos',
+          items: [
+            'mamore/recursos-humanos/gestion-personas',
+            'mamore/recursos-humanos/asistencia',
+            'mamore/recursos-humanos/horarios',
+            'mamore/recursos-humanos/permisos-asistencia',
+          ]
+        },
+        {
+          type: 'category',
+          label: '🏦 Tesorería',
+          items: [
+            'mamore/tesoreria/bovedas',
+          ]
+        },
+        {
+          type: 'category',
           label: '🛡️ Prevision Social',
           link: { type: 'doc', id: 'mamore/prevision_social/intro' },
           items: [
             'mamore/prevision_social/cheques',
             'mamore/prevision_social/pagos',
             'mamore/prevision_social/planillas-manuales',
+            'mamore/prevision_social/spreadsheets',
           ]
         },
         {
@@ -156,8 +183,16 @@ const sidebars = {
            'mamore/parametros/tipos-inamovilidad',
            'mamore/parametros/tipos-beneficiarios',
            'mamore/parametros/feriados',
-           'mamore/parametros/trabajos-recurrentes',
-           'mamore/parametros/tipo-permisos',
+'mamore/parametros/trabajos-recurrentes',
+            'mamore/parametros/tipo-permisos',
+           ]
+        },
+        {
+          type: 'category',
+          label: '⚙️ Configuración',
+          items: [
+            'mamore/configuracion/importaciones',
+            'mamore/administracion/donaciones',
           ]
         },
         {

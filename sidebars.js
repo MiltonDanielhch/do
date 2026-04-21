@@ -334,6 +334,24 @@ const sidebars = {
             'almacen/opcion-almacen/modalidad-compras',
           ]
         },
+        {
+          type: 'category',
+          label: '👤 Gestión',
+          items: [
+            'almacen/gestion-usuarios',
+            'almacen/notificaciones',
+          ]
+        },
+        {
+          type: 'category',
+          label: '🎁 Donaciones',
+          items: [
+            'almacen/donaciones/ingresos-donacion',
+            'almacen/donaciones/egresos-donacion',
+            'almacen/donaciones/stock-donaciones',
+          ]
+        },
+        'almacen/ROADMAP'
       ]
     },
     {

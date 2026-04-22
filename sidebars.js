@@ -367,27 +367,15 @@ const sidebars = {
       label: '🔍 Transparencia',
       link: { type: 'doc', id: 'transparencia/intro' },
       items: [
-        'transparencia/intro'
+'transparencia/intro'
       ]
     },
     {
       type: 'category',
-      label: '🚌 Transporte',
-      link: { type: 'doc', id: 'transporte/intro' },
+      label: '⛏️ Minería',
+      link: { type: 'doc', id: 'mineria/intro' },
       items: [
-        'transporte/intro',
-        'transporte/asociados',
-        'transporte/vehiculos',
-        'transporte/rutas',
-'transporte/membresias'
-      ]
-    },
-    {
-      type: 'category',
-      label: '🏨 Ecoalbergue',
-      link: { type: 'doc', id: 'ecoalbergue/intro' },
-      items: [
-        'ecoalbergue/intro'
+        'mineria/intro'
       ]
     },
     {

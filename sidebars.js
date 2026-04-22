@@ -379,7 +379,15 @@ const sidebars = {
         'transporte/asociados',
         'transporte/vehiculos',
         'transporte/rutas',
-        'transporte/membresias'
+'transporte/membresias'
+      ]
+    },
+    {
+      type: 'category',
+      label: '🏨 Ecoalbergue',
+      link: { type: 'doc', id: 'ecoalbergue/intro' },
+      items: [
+        'ecoalbergue/intro'
       ]
     },
     {

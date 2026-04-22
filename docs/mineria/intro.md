@@ -2,100 +2,78 @@
 sidebar_position: 1
 ---
 
-# Minería - Sistema de Gestión
+# Sistema de Gestión de Minería - Dirección Departamental de Minería, Energía e Hidrocarburos
 
-## Vista General
+## Introducción
 
-Sistema de gestión del área de minería del Gobierno Autónomo Departamental del Beni. Control de certificados y empresas mineras.
+Bienvenido a la documentación del **Sistema de Gestión de Minería** del Gobierno Autónomo Departamental del Beni. Esta plataforma es la herramienta centralizada para la administración y control de los **Certificados de Operador Minero (C.O.M.)** y la **Declaración Jurada de Ingresos de Minerales (Formulario 101)**.
 
-## Módulos Principales
+El sistema está diseñado para registrar y controlar las operaciones mineras legales en el departamento del Beni, asegurando la **trazabilidad, transparencia y cumplimiento normativo** en el sector minero departamental.
 
-### 1. Certificados
+## Propósito y Beneficios
 
-**Ruta:** `admin/certificates`
+*   **Legalidad:** Garantiza que solo operadores mineros con certificado vigente operen en el departamento.
+*   **Trazabilidad:** Registra cada transporte de mineral desde la extracción hasta su destino final.
+*   **Transparencia:** Proporciona información auditable sobre operaciones mineras.
+*   **Control Departamental:** Facilita la supervisión de actividades mineras por parte de la Dirección de Minería.
+*   **Eficiencia:** Agiliza la emisión de certificados y declaraciones juradas.
 
-Gestión de certificados mineros.
+## Funcionalidades Clave
 
-| Campo | Descripción |
-|-------|-------------|
-| ID | Identificador único |
-| Empresa | Company asociada |
-| Número | Número de certificado |
-| Fecha | Fecha de emisión |
-| Estado | Vigente/Expirado |
+El sistema se organiza en los siguientes módulos principales:
 
-### Impresión de Certificados
+*   **Gestión de Empresas (`companies`):**
+    *   Registro de empresas mineras con sus datos legales.
+    *   Asignación de Código de Operador Minero (COM).
+    *   Gestión de representantes legales y contactos.
+    *   Creación automática de usuarios del sistema para empresas.
+*   **Gestión de Certificados (`certificates`):**
+    *   Emisión de Certificados de Operador Minero (C.O.M.).
+    *   Seguimiento de vigencia de certificados.
+    *   Impresión de certificados oficiales con código QR de verificación.
+    *   Vinculación con empresas y firmas autorizantes.
+*   **Gestión de Formularios 101 (`form101s`):**
+    *   Declaración jurada de ingresos de mineral.
+    *   Registro detallado del transporte (origen, intermedio, destino).
+    *   Control de peso bruto, humedad y peso neto.
+    *   Seguimiento por tipo de mineral.
+*   **Gestión de Firmas (`signatures`):**
+    *   Catálogo de firmas autorizadas para certificados.
+    *   Control de vigencia de firmas.
+*   **Catálogos de Apoyo:**
+    *   Tipos de minerales registrados.
+    *   Códigos utilizados en el sistema.
 
-**Ruta:** `/certificates/{id}/print`
+## Audiencia Destinataria
 
-Genera la impresión del certificado en PDF.
+Esta documentación está dirigida a:
 
-### 2. Empresas
+*   **Personal de la Dirección de Minería:** Encargados de emitir certificados y revisar declaraciones.
+*   **Empresas Mineras:** Operadores que requieren registrar sus actividades y obtener certificados.
+*   **Transportistas:** Conductores que presentan Formularios 101 en puntos de control.
+*   **Auditores:** Revisan la trazabilidad de operaciones mineras.
+*   **Administradores del Sistema:** Gestionan la configuración y seguridad.
 
-**Ruta:** `admin/companies/create`
+## Flujo General del Sistema
 
-Gestión de empresas mineras.
+```
+┌─────────────┐     ┌──────────────┐     ┌────────────────┐
+│   EMPRESA   │────▶│ CERTIFICADO  │────▶│ FORMULARIO 101 │
+│  MINERA     │     │   (C.O.M.)   │     │  (Declaración) │
+└─────────────┘     └──────────────┘     └────────────────┘
+      │                    │                      │
+      ▼                    ▼                      ▼
+  Registro de         Emisión de           Registro de
+  datos legales      certificado           ingresos de
+                     con vigencia          mineral
+```
 
-| Campo | Descripción |
-|-------|-------------|
-| Nombre | Razón social |
-| NIT | Número de identificación |
-| Representante | Persona de contacto |
-| Actividad | Tipo de actividad minera |
+## Integración con Otros Sistemas
 
-### Listado AJAX
+El sistema de Minería está preparado para integrarse con:
 
-**Ruta:** `admin/companies/certificate/list`
+*   **WhatsApp API:** Envío de notificaciones a empresas y transportistas.
+*   **SISCOR:** Sistema de correspondencia institucional.
+*   **Mamoré:** Para gestión de recursos humanos y finanzas.
 
-Obtiene lista de empresas para seleccionar en certificados.
-
-### 3. Formulario 101
-
-**Ruta:** `admin/form101s`
-
-Gestión del Formulario 101 (Declaración Jurada).
-
-| Campo | Descripción |
-|-------|-------------|
-| ID | Identificador |
-| Empresa | Empresa relacionada |
-| Periodo | Año/mes de declaración |
-| Estado | Presentado/Pendiente |
-
-### Lista AJAX
-
-**Ruta:** `admin/form101s/ajax/list/{search?}`
-
-Búsqueda de formularios.
-
-### Impresión Formulario 101
-
-**Ruta:** `admin/form101s/prinf/{form}`
-
-Genera impresión del formulario.
-
-## Funcionalidades AJAX
-
-### Buscar Código de Certificado
-
-**Ruta:** `admin/ajax/certificates/code/{code}`
-
-Busca certificado por código.
-
-### Descargar Log
-
-**Ruta:** `admin/download/log/{cad}`
-
-Descarga archivos de log.
-
-## Panel de Administración
-
-**Ruta:** `/admin`
-
-Gestión via Voyager.
-
-## Consideraciones
-
-- Sistema específico para el área de minería
-- Control de certificados y empresas
-- Formularios 101 para declaraciones juradas
+---

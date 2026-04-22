@@ -105,3 +105,18 @@ Registra membresías de asociados.
 - El sistema permite buscar asociados o vehículos
 - Cada vehículo pertenece a un asociado
 - Las rutas pueden asociarse a organizaciones
+
+---
+
+## URL del Sistema
+
+*   **Portal Público:** `https://transporte.beni.gob.bo/`
+*   **Panel Admin:** `https://transporte.beni.gob.bo/admin`
+
+## Estructura de Documentación
+
+*   [Introducción](/transporte/intro) - Overview del sistema
+*   [Gestión de Asociados](/transporte/asociados) - Registro y control de asociados
+*   [Gestión de Rutas](/transporte/rutas/rutas-gestion) - Administración de rutas
+*   [Gestión de Vehículos](/transporte/vehiculos/vehiculos-gestion) - Control vehicular
+*   [Membresías](/transporte/membresias/membresias-gestion) - Control de vigencia

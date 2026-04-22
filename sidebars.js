@@ -359,7 +359,22 @@ const sidebars = {
       label: '📜 Gacetas',
       link: { type: 'doc', id: 'gacetas/intro' },
       items: [
-        'gacetas/intro'
+        'gacetas/intro',
+        {
+          type: 'category',
+          label: '📂 Tipos',
+          items: [
+            'gacetas/tipos/intro',
+          ]
+        },
+        {
+          type: 'category',
+          label: '📄 Publicaciones',
+          items: [
+            'gacetas/publicaciones/intro',
+          ]
+        },
+        'gacetas/ROADMAP'
       ]
     },
     {
@@ -367,7 +382,22 @@ const sidebars = {
       label: '🔍 Transparencia',
       link: { type: 'doc', id: 'transparencia/intro' },
       items: [
-'transparencia/intro'
+        'transparencia/intro',
+        {
+          type: 'category',
+          label: '👥 Denunciantes',
+          items: [
+            'transparencia/denunciantes/intro',
+          ]
+        },
+        {
+          type: 'category',
+          label: '📝 Formulario',
+          items: [
+            'transparencia/formulario/intro',
+          ]
+        },
+        'transparencia/ROADMAP'
       ]
     },
     {
@@ -375,7 +405,101 @@ const sidebars = {
       label: '⛏️ Minería',
       link: { type: 'doc', id: 'mineria/intro' },
       items: [
-        'mineria/intro'
+        'mineria/intro',
+        'mineria/certificados',
+        'mineria/empresas',
+        'mineria/form101'
+      ]
+    },
+    {
+      type: 'category',
+      label: '🔍 Auditoría',
+      link: { type: 'doc', id: 'auditoria/intro' },
+      items: [
+        'auditoria/intro',
+        {
+          type: 'category',
+          label: '📊 Informes',
+          items: [
+            'auditoria/informes/lista-informes',
+          ]
+        },
+        {
+          type: 'category',
+          label: '👥 Funcionarios',
+          items: [
+            'auditoria/publicaciones/funcionarios-faq',
+          ]
+        },
+        'auditoria/ROADMAP'
+      ]
+    },
+    {
+      type: 'category',
+      label: '🚗 Transporte',
+      link: { type: 'doc', id: 'transporte/intro' },
+      items: [
+        'transporte/intro',
+        'transporte/asociados',
+        {
+          type: 'category',
+          label: '📍 Rutas',
+          items: [
+            'transporte/rutas/rutas-gestion',
+          ]
+        },
+        {
+          type: 'category',
+          label: '🚐 Vehículos',
+          items: [
+            'transporte/vehiculos/vehiculos-gestion',
+          ]
+        },
+        {
+          type: 'category',
+          label: '🎫 Membresías',
+          items: [
+            'transporte/membresias/membresias-gestion',
+          ]
+        },
+        {
+          type: 'category',
+          label: '🏢 Organizaciones',
+          items: [
+            'transporte/organizaciones/organizaciones-gestion',
+          ]
+        },
+        'transporte/ROADMAP'
+      ]
+    },
+    {
+      type: 'category',
+      label: '🏨 Ecoalbergue',
+      link: { type: 'doc', id: 'ecoalbergue/intro' },
+      items: [
+        'ecoalbergue/intro',
+        {
+          type: 'category',
+          label: '🛏️ Habitaciones',
+          items: [
+            'ecoalbergue/habitaciones/lista-habitaciones',
+          ]
+        },
+        {
+          type: 'category',
+          label: '📦 Paquetes',
+          items: [
+            'ecoalbergue/paquetes/lista-paquetes',
+          ]
+        },
+        {
+          type: 'category',
+          label: '📰 Blog',
+          items: [
+            'ecoalbergue/blog/lista-posts',
+          ]
+        },
+        'ecoalbergue/ROADMAP'
       ]
     },
     {
@@ -401,8 +525,8 @@ const sidebars = {
       type: 'category',
       label: '📈 Diagramas',
       items: [
-        'diagramas/flujos',
-        'diagramas/arquitectura'
+        'diagramas/arquitectura',
+        'diagramas/flujos'
       ]
     },
     {
@@ -412,6 +536,13 @@ const sidebars = {
         'soporte/faq',
         'soporte/contacto',
         'soporte/changelog'
+      ]
+    },
+    {
+      type: 'category',
+      label: '📖 Glosario',
+      items: [
+        'glossary'
       ]
     }
   ]

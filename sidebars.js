@@ -356,6 +356,22 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '💰 Impuestos',
+      link: { type: 'doc', id: 'impuestos/intro' },
+      items: [
+        'impuestos/calculadora',
+        'impuestos/wizard-tramites',
+        'impuestos/personas',
+        'impuestos/inmuebles',
+        'impuestos/pagos',
+        'impuestos/parametros',
+        'impuestos/reportes',
+        'impuestos/validacion',
+        'impuestos/ROADMAP'
+      ]
+    },
+    {
+      type: 'category',
       label: '📈 Diagramas',
       items: [
         'diagramas/flujos',

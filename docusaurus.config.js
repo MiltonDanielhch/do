@@ -43,20 +43,16 @@ export default {
     ],
   ],
   themes: ['@docusaurus/theme-mermaid'],
-  markdown: {
-    mermaid: true,
-  },
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     mermaid: {
       options: {
         securityLevel: 'loose',
-        theme: {
-          light: 'neutral',
-          dark: 'dark',
-        },
-        flowchart: { curve: 'basis' },
-        sequence: { showSequenceNumbers: true },
       },
     },
     navbar: {

@@ -102,6 +102,8 @@ Confirmación y registro
 | Media | Personas (Disponentes/Adquirentes) | ✅ COMPLETADO |
 | Media | Inmuebles y Avalúos | ✅ COMPLETADO |
 | Media | Pagos | ✅ COMPLETADO |
+| Media | Documentos y Archivos | ✅ COMPLETADO |
+| Media | UFV | ✅ COMPLETADO |
 | Baja | Parámetros (tasas, tipos, etc.) | ✅ COMPLETADO |
 | Baja | Reportes | ✅ COMPLETADO |
 | Baja | Validación Pública | ✅ COMPLETADO |
@@ -110,7 +112,7 @@ Confirmación y registro
 
 ## 6. Estado - COMPLETADO ✅
 
-**Módulos documentados:** 9/25
+**Módulos documentados:** 12/25
 
 ---
 

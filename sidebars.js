@@ -356,6 +356,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '📜 Gacetas',
+      link: { type: 'doc', id: 'gacetas/intro' },
+      items: [
+        'gacetas/intro'
+      ]
+    },
+    {
+      type: 'category',
       label: '💰 Impuestos',
       link: { type: 'doc', id: 'impuestos/intro' },
       items: [
@@ -365,6 +373,9 @@ const sidebars = {
         'impuestos/inmuebles',
         'impuestos/pagos',
         'impuestos/parametros',
+        'impuestos/documentos',
+        'impuestos/ufv',
+        'impuestos/servicios',
         'impuestos/reportes',
         'impuestos/validacion',
         'impuestos/ROADMAP'

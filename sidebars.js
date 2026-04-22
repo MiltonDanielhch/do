@@ -364,6 +364,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '🔍 Transparencia',
+      link: { type: 'doc', id: 'transparencia/intro' },
+      items: [
+        'transparencia/intro'
+      ]
+    },
+    {
+      type: 'category',
       label: '💰 Impuestos',
       link: { type: 'doc', id: 'impuestos/intro' },
       items: [

@@ -11,17 +11,17 @@ RUN apk add --no-cache \
     make \
     python3
 
-# Copia manifiestos de dependencias
+# Copia manifiiestos de dependencias
 COPY package.json yarn.lock ./
 
-# Instala las dependencias
-RUN yarn install --frozen-lockfile
+# Instala las dependencias (ignora optional para evitar fsevents en Linux)
+RUN npm install --ignore-scripts
 
 # Copia el resto del código fuente
 COPY . .
 
 # Build de la aplicación
-RUN yarn build
+RUN npm run build
 
 # ---- Runtime stage ----
 FROM nginx:alpine

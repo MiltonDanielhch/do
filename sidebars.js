@@ -375,7 +375,19 @@ const sidebars = {
       label: '🚌 Transporte',
       link: { type: 'doc', id: 'transporte/intro' },
       items: [
-        'transporte/intro'
+'transporte/intro'
+      ]
+    },
+    {
+      type: 'category',
+      label: '🚌 Transporte',
+      link: { type: 'doc', id: 'transporte/intro' },
+      items: [
+        'transporte/intro',
+        'transporte/asociados',
+        'transporte/vehiculos',
+        'transporte/rutas',
+        'transporte/membresias'
       ]
     },
     {

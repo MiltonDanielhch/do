@@ -372,6 +372,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '🚌 Transporte',
+      link: { type: 'doc', id: 'transporte/intro' },
+      items: [
+        'transporte/intro'
+      ]
+    },
+    {
+      type: 'category',
       label: '💰 Impuestos',
       link: { type: 'doc', id: 'impuestos/intro' },
       items: [

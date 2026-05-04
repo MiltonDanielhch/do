@@ -8,6 +8,35 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '🌐 beni.gob.bo',
+      link: { type: 'doc', id: 'beni/intro' },
+      items: [
+        'beni/intro',
+        {
+          type: 'category',
+          label: '📰 Noticias',
+          items: [
+            'beni/noticias/intro',
+          ]
+        },
+        {
+          type: 'category',
+          label: '📄 Páginas',
+          items: [
+            'beni/publicaciones/paginas',
+          ]
+        },
+        {
+          type: 'category',
+          label: '🔗 Sistemas',
+          items: [
+            'beni/sistemas/intro',
+          ]
+        },
+      ]
+    },
+    {
+      type: 'category',
       label: '📋 Sistema Mamoré',
       link: {
         type: 'doc',

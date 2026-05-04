@@ -189,10 +189,10 @@ El edificio central se encuentra en la zona市中心 de Trinidad, cerca de la Pr
 
 ### Enlaces Directos
 
-*   [Portal de Gacetas](https://gacetas.beni.gob.bo)
+*   [Portal de Gacetas](https://gaceta.beni.gob.bo)
 *   [Portal de Transparencia](https://transparencia.beni.gob.bo)
 *   [Portal de Auditoría](https://auditoria.beni.gob.bo)
-*   [Ecoalbergue](https://ecoalbergue.beni.gob.bo)
+*   [Ecoalbergue](https://aguaysal.beni.gob.bo)
 
 ---
 

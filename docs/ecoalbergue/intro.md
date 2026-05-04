@@ -334,8 +334,8 @@ $count = [
 *   **Almacenamiento:** Imágenes guardadas en `storage/app/public/`.
 *   **Responsive:** El portal es adaptable a dispositivos móviles.
 
-## URL del Sistema
+## URLs del Sistema
 
-*   **Portal Público:** `https://ecoalbergue.beni.gob.bo/`
-*   **Versión Inglés:** `https://ecoalbergue.beni.gob.bo/en`
-*   **Panel Admin:** `https://ecoalbergue.beni.gob.bo/admin`
+*   **Portal Público:** `https://aguaysal.beni.gob.bo/`
+*   **Versión Inglés:** `https://aguaysal.beni.gob.bo/en`
+*   **Panel Admin:** `https://aguaysal.beni.gob.bo/admin`

@@ -20,16 +20,17 @@ Esta documentación cubre los siguientes sistemas vitales para la gestión depar
 
 | Sistema | Descripción | URL |
 |---------|-------------|-----|
+| **[Portal Web beni.gob.bo](/beni/intro)** | Sitio web oficial WordPress de la Gobernación del Beni. | `beni.gob.bo` |
 | **[Sistema Integral MAMORÉ](/mamore/intro)** | Gestión administrativa y financiera completa: Contrataciones, Recursos Humanos, Planillas, Tesorería, Finanzas, Activos Fijos. | `mamore.beni.gob.bo` |
 | **[Sistema de Correspondencia SISCOR](/siscor/intro)** | Gestión digital del flujo documental y trámites institucionales. | `siscor.beni.gob.bo` |
 | **[Sistema de ALMACÉN](/almacen/intro)** | Control de inventarios y bienes de consumo. | `almacen.beni.gob.bo` |
-| **[Sistema de IMPUESTOS](/impuestos/intro)** | Gestión de impuestos departamentales, calculares y servicios. | `impuestos.beni.gob.bo` |
+| **[Sistema de IMPUESTOS](/impuestos/intro)** | Gestión de impuestos departamentales, calculares y servicios. | `idtgb.beni.gob.bo` |
 
 ### Sistemas de Transparencia y Legal
 
 | Sistema | Descripción | URL |
 |---------|-------------|-----|
-| **[Portal de GACETAS](/gacetas/intro)** | Publicación y consulta de Gacetas Oficiales, Decretos y Resoluciones. | `gacetas.beni.gob.bo` |
+| **[Portal de GACETAS](/gacetas/intro)** | Publicación y consulta de Gacetas Oficiales, Decretos y Resoluciones. | `gaceta.beni.gob.bo` |
 | **[Portal de TRANSPARENCIA](/transparencia/intro)** | Sistema de recepción de denuncias ciudadanas. | `transparencia.beni.gob.bo` |
 | **[Portal de AUDITORÍA](/auditoria/intro)** | Informes ejecutivos de auditoría de todas las gestiones. | `auditoria.beni.gob.bo` |
 
@@ -38,7 +39,7 @@ Esta documentación cubre los siguientes sistemas vitales para la gestión depar
 | Sistema | Descripción | URL |
 |---------|-------------|-----|
 | **[Sistema de MINERÍA](/mineria/intro)** | Gestión de Certificados de Operador Minero (C.O.M.) y Formularios 101. | `mineria.beni.gob.bo` |
-| **[Sistema de ECOALBERGUE](/ecoalbergue/intro)** | Gestión hotelera y turística del Ecoalbergue Departamental. | `ecoalbergue.beni.gob.bo` |
+| **[Sistema de ECOALBERGUE](/ecoalbergue/intro)** | Gestión hotelera y turística del Ecoalbergue Departamental. | `aguaysal.beni.gob.bo` |
 
 ---
 

@@ -101,7 +101,7 @@ Esta documentación está dirigida a:
 
 ### 1. Acceso al Portal
 
-1.  **URL Principal:** `https://gacetas.beni.gob.bo/`
+1.  **URL Principal:** `https://gaceta.beni.gob.bo/`
 2.  Se muestra una página con cards de los tipos de publicación disponibles.
 3.  Cada card incluye:
     *   Imagen representativa del tipo.
@@ -242,7 +242,7 @@ En Voyager > Settings:
 *   **SEO:** Implementar meta tags para posicionamiento.
 *   **Almacenamiento:** Los archivos se guardan en `storage/app/public/`.
 
-## URL del Sistema
+## URLs del Sistema
 
-*   **Portal Público:** `https://gacetas.beni.gob.bo/`
-*   **Panel Admin:** `https://gacetas.beni.gob.bo/admin`
+*   **Portal Público:** `https://gaceta.beni.gob.bo/`
+*   **Panel Admin:** `https://gaceta.beni.gob.bo/admin`

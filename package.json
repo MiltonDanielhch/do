@@ -19,13 +19,15 @@
     "@docusaurus/theme-mermaid": "3.8.1",
     "@easyops-cn/docusaurus-search-local": "^0.52.1",
     "@mdx-js/react": "^3.0.0",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
     "clsx": "^2.0.0",
     "docusaurus": "^1.14.7",
     "docusaurus-lunr-search": "^3.4.0",
     "lunr": "^2.3.9",
     "prism-react-renderer": "^2.3.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",

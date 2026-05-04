@@ -367,12 +367,12 @@ Esta sección aborda las consultas más comunes sobre todos los sistemas del Gob
 | MAMORÉ | `mamore.beni.gob.bo/admin` |
 | SISCOR | `siscor.beni.gob.bo/admin` |
 | ALMACÉN | `almacen.beni.gob.bo/admin` |
-| IMPUESTOS | `impuestos.beni.gob.bo/admin` |
-| GACETAS | `gacetas.beni.gob.bo` |
+| IMPUESTOS | `idtgb.beni.gob.bo/admin` |
+| GACETAS | `gaceta.beni.gob.bo` |
 | TRANSPARENCIA | `transparencia.beni.gob.bo` |
 | AUDITORÍA | `auditoria.beni.gob.bo` |
 | MINERÍA | `mineria.beni.gob.bo/admin` |
-| ECOALBERGUE | `ecoalbergue.beni.gob.bo/admin` |
+| ECOALBERGUE | `aguaysal.beni.gob.bo/admin` |
 
 ---
 

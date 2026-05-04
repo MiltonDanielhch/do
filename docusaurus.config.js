@@ -14,6 +14,9 @@ export default {
     defaultLocale: 'es',
     locales: ['es'],
   },
+  markdown: {
+    mermaid: true,
+  },
   presets: [
     [
       'classic',
@@ -49,11 +52,6 @@ export default {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,
-    },
-    mermaid: {
-      options: {
-        securityLevel: 'loose',
-      },
     },
     navbar: {
       title: 'GADBENI DOCS',

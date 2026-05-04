@@ -151,17 +151,18 @@ erDiagram
 ```mermaid
 flowchart LR
     subgraph "Dominios - beni.gob.bo"
-        GACETAS["gacetas.beni.gob.bo<br/>Portal Público"]
+        GOB["beni.gob.bo<br/>WordPress"]
+        GACETAS["gaceta.beni.gob.bo<br/>Portal Pública"]
         TRANSPARENCIA["transparencia.beni.gob.bo<br/>Portal Público"]
         AUDITORIA["auditoria.beni.gob.bo<br/>Portal Público"]
-        ECOALBERGUE["ecoalbergue.beni.gob.bo<br/>Portal+Admin"]
+        ECOALBERGUE["aguaysal.beni.gob.bo<br/>Portal+Admin"]
     end
 
     subgraph "Subdominios - admin.beni.gob.bo"
         MAMORE["mamore.beni.gob.bo<br/>Admin"]
         SISCOR["siscor.beni.gob.bo<br/>Admin"]
         ALMACEN["almacen.beni.gob.bo<br/>Admin"]
-        IMPUESTOS["impuestos.beni.gob.bo<br/>Admin"]
+        IMPUESTOS["idtgb.beni.gob.bo<br/>Admin"]
         MINERIA["mineria.beni.gob.bo<br/>Admin"]
     end
 
